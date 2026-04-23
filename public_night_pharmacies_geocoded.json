@@ -1,0 +1,5615 @@
+[
+  {
+    "name": "일등약국",
+    "address": "서울특별시 종로구 경교장길 35 3148,3149호",
+    "phone": "02-723-7581",
+    "source_hours_text": "08:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": null,
+    "lng": null,
+    "geocodeStatus": "not_found",
+    "geocodeRaw": {
+      "documents": [],
+      "meta": {
+        "is_end": true,
+        "pageable_count": 0,
+        "total_count": 0
+      }
+    },
+    "id": "001",
+    "nightEligible": "full"
+  },
+  {
+    "name": "대풍약국",
+    "address": "서울 중구 동호로11길 43 101호",
+    "phone": "02-2252-3944",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "display_name": "대풍온누리약국",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "21:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "13:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "notes": "토 21:00-22:00 휴게, 일 13:00-22:00 휴게",
+    "lat": 37.5533481321452,
+    "lng": 127.009063007874,
+    "geocodeStatus": "ok",
+    "id": "002",
+    "nightEligible": "full"
+  },
+  {
+    "name": "유쾌한약국",
+    "address": "서울 중구 다산로 168 1층 유쾌한약국",
+    "phone": "02-2234-0827",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.558442272308,
+    "lng": 127.013023379599,
+    "geocodeStatus": "ok",
+    "id": "003",
+    "nightEligible": "full"
+  },
+  {
+    "name": "수복약국",
+    "address": "서울 용산구 새창로12길 12 도원동",
+    "phone": "02-714-0667",
+    "source_hours_text": "08:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.5392587629755,
+    "lng": 126.957514517529,
+    "geocodeStatus": "ok",
+    "id": "004",
+    "nightEligible": "full"
+  },
+  {
+    "name": "보림약국",
+    "address": "서울특별시 동대문구 장한로 115 1층",
+    "phone": "02-2248-2082",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.5709408102064,
+    "lng": 127.070536882497,
+    "geocodeStatus": "ok",
+    "id": "006",
+    "nightEligible": "full"
+  },
+  {
+    "name": "광진365플러스약국",
+    "address": "서울 광진구 천호대로 566 1층",
+    "phone": "02-455-3655",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.5563705452593,
+    "lng": 127.080646060092,
+    "geocodeStatus": "ok",
+    "id": "008",
+    "nightEligible": "full"
+  },
+  {
+    "name": "모아약국",
+    "address": "서울 성북구 화랑로11길 23 모아약국",
+    "phone": "02-942-4534",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "open": "14:00",
+          "close": "20:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "open": "14:00",
+          "close": "20:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "open": "14:00",
+          "close": "20:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "open": "14:00",
+          "close": "20:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "open": "14:00",
+          "close": "20:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "open": "14:00",
+          "close": "20:00"
+        }
+      ],
+      "sun": null
+    },
+    "notes": "매달 2,4번째 일요일 정기휴무, 어린이날 휴무",
+    "lat": 37.6034026085232,
+    "lng": 127.041675307903,
+    "geocodeStatus": "ok",
+    "id": "009",
+    "nightEligible": "full"
+  },
+  {
+    "name": "온누리 민우약국",
+    "address": "서울 성북구 돌곶이로22길 49 1층 온누리 민우약국",
+    "phone": "02-969-4582",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "13:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "13:00",
+          "close": "01:00"
+        }
+      ],
+      "holiday": [
+        {
+          "open": "13:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "notes": "공휴일 13:00-01:00",
+    "lat": 37.6107163653238,
+    "lng": 127.060649603945,
+    "geocodeStatus": "ok",
+    "id": "010",
+    "nightEligible": "full"
+  },
+  {
+    "name": "새보은약국",
+    "address": "서울 도봉구 삼양로154길 42 새보은약국",
+    "phone": "02-996-7360",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.6556447843763,
+    "lng": 127.015624947396,
+    "geocodeStatus": "ok",
+    "id": "011",
+    "nightEligible": "full"
+  },
+  {
+    "name": "은혜약국",
+    "address": "서울 도봉구 도봉로118길 11 창1동",
+    "phone": "02-992-9191",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.6490642641892,
+    "lng": 127.035897595304,
+    "geocodeStatus": "ok",
+    "id": "012",
+    "nightEligible": "full"
+  },
+  {
+    "name": "인수약국",
+    "address": "서울 강북구 덕릉로 17 인수약국",
+    "phone": "02-993-7378",
+    "source_hours_text": "13:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "13:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.6341236251215,
+    "lng": 127.01552164893,
+    "geocodeStatus": "ok",
+    "id": "013",
+    "nightEligible": "full"
+  },
+  {
+    "name": "새고운약국",
+    "address": "서울 노원구 동일로 1003 1층 새고운약국",
+    "phone": "02-973-9286",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.6197084965109,
+    "lng": 127.074643004394,
+    "geocodeStatus": "ok",
+    "id": "014",
+    "nightEligible": "full"
+  },
+  {
+    "name": "정문온누리약국",
+    "address": "서울특별시 은평구 진흥로 196",
+    "phone": "02-549-3003",
+    "source_hours_text": "08:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.6084944977449,
+    "lng": 126.931246408666,
+    "geocodeStatus": "ok",
+    "id": "016",
+    "nightEligible": "full"
+  },
+  {
+    "name": "청룡중앙약국",
+    "address": "서울특별시 은평구 가좌로 233 연희타워 103호",
+    "phone": "02-303-6550",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "14:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": null
+    },
+    "notes": "매주 일요일 정기휴무, 3월1일 토요일 심야 운영 불가",
+    "lat": 37.5904238447716,
+    "lng": 126.916412390363,
+    "geocodeStatus": "ok",
+    "id": "017",
+    "nightEligible": "full"
+  },
+  {
+    "name": "은하약국",
+    "address": "서울특별시 서대문구 명지대3길 1 1층",
+    "phone": "02-372-1513",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.5822054658106,
+    "lng": 126.923631375579,
+    "geocodeStatus": "ok",
+    "id": "019",
+    "nightEligible": "full"
+  },
+  {
+    "name": "비온뒤숲속약국",
+    "address": "서울 마포구 월드컵로 111 풍성빌딩105호",
+    "phone": "010-3033-0135",
+    "source_hours_text": "08:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.5581818786815,
+    "lng": 126.907859722016,
+    "geocodeStatus": "ok",
+    "id": "020",
+    "nightEligible": "full"
+  },
+  {
+    "name": "셀약국",
+    "address": "서울특별시 마포구 양화로 72 효성해링턴 118호",
+    "phone": "02-337-7959",
+    "source_hours_text": "09:00 ~ 23:30",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "23:30",
+      "overnight": false
+    },
+    "lat": 37.5508138163956,
+    "lng": 126.916493990351,
+    "geocodeStatus": "ok",
+    "id": "021",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "365정약국",
+    "address": "서울 강서구 양천로 570 NH서울타워 1층 115호",
+    "phone": "02-2013-5811",
+    "source_hours_text": "08:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.5566342630168,
+    "lng": 126.862027072667,
+    "geocodeStatus": "ok",
+    "id": "024",
+    "nightEligible": "full"
+  },
+  {
+    "name": "남구로약국",
+    "address": "서울 구로구 구로동로 33 1층 남구로약국",
+    "phone": "02-838-3104",
+    "source_hours_text": "08:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.4845769677862,
+    "lng": 126.8860293447,
+    "geocodeStatus": "ok",
+    "id": "025",
+    "nightEligible": "full"
+  },
+  {
+    "name": "대우당약국",
+    "address": "서울특별시 금천구 은행나무로 34 스카이한양메디컬타워 101호 대우당약국",
+    "phone": "02-808-8960",
+    "source_hours_text": "00:00 ~ 47:30",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "13:00",
+          "close": "24:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "19:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "notes": "수동 확인 완료",
+    "lat": 37.4507031299287,
+    "lng": 126.906132273847,
+    "geocodeStatus": "ok",
+    "id": "026",
+    "nightEligible": "full"
+  },
+  {
+    "name": "삼화약국",
+    "address": "서울특별시 금천구 은행나무로 12-1 삼화약국",
+    "phone": "02-803-4167",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.4500608599523,
+    "lng": 126.903856176117,
+    "geocodeStatus": "ok",
+    "id": "027",
+    "nightEligible": "full"
+  },
+  {
+    "name": "세종로약국",
+    "address": "서울특별시 영등포구 여의대방로 197 1층 세종로약국",
+    "phone": "02-846-0072",
+    "source_hours_text": "08:00 ~ 23:30",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "23:30",
+      "overnight": false
+    },
+    "lat": 37.5046349297464,
+    "lng": 126.921849003149,
+    "geocodeStatus": "ok",
+    "id": "028",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "씨에이(CA)정문약국",
+    "address": "서울특별시 동작구 흑석로 108 1~2층 (흑석동)",
+    "phone": "02-825-1122",
+    "source_hours_text": "08:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": null,
+    "lng": null,
+    "geocodeStatus": "not_found",
+    "geocodeRaw": {
+      "documents": [],
+      "meta": {
+        "is_end": true,
+        "pageable_count": 0,
+        "total_count": 0
+      }
+    },
+    "id": "030",
+    "nightEligible": "full"
+  },
+  {
+    "name": "365그랜드온누리약국",
+    "address": "인천 부평구 마장로 314 성수빌딩 101호",
+    "phone": "032-710-3657",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.5060324730627,
+    "lng": 126.703643583072,
+    "geocodeStatus": "ok",
+    "id": "031",
+    "nightEligible": "full"
+  },
+  {
+    "name": "종로늘푸른약국",
+    "address": "서울 관악구 신림로 137 조흥빌딩 102호",
+    "phone": "02-885-0074",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.4711520940972,
+    "lng": 126.934055326017,
+    "geocodeStatus": "ok",
+    "id": "032",
+    "nightEligible": "full"
+  },
+  {
+    "name": "장수알파약국",
+    "address": "서울특별시 서초구 서초중앙로 38 1층 장수알파약국",
+    "phone": "02-3487-4233",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.4854679435006,
+    "lng": 127.016275305738,
+    "geocodeStatus": "ok",
+    "id": "034",
+    "nightEligible": "full"
+  },
+  {
+    "name": "노바약국",
+    "address": "서울 강남구 강남대로118길 51 103호 노바약국",
+    "phone": "02-542-3696",
+    "source_hours_text": "14:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "14:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.507505812621,
+    "lng": 127.027220116866,
+    "geocodeStatus": "ok",
+    "id": "035",
+    "nightEligible": "full"
+  },
+  {
+    "name": "제일그랜드약국",
+    "address": "서울 강남구 강남대로 478 1층",
+    "phone": "02-546-0093",
+    "source_hours_text": "00:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "00:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 37.5051062753525,
+    "lng": 127.024669466556,
+    "geocodeStatus": "ok",
+    "id": "036",
+    "nightEligible": "full"
+  },
+  {
+    "name": "시온약국",
+    "address": "서울특별시 송파구 백제고분로27길 19 1층 시온약국",
+    "phone": "02-417-1365",
+    "source_hours_text": "14:00 ~ 23:30",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "14:00",
+      "daily_close": "23:30",
+      "overnight": false
+    },
+    "lat": 37.5048761590324,
+    "lng": 127.093145754121,
+    "geocodeStatus": "ok",
+    "id": "037",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "햇살약국",
+    "address": "서울특별시 송파구 위례성대로20길 31",
+    "phone": "02-406-5258",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.5086959814967,
+    "lng": 127.127228338968,
+    "geocodeStatus": "ok",
+    "id": "038",
+    "nightEligible": "full"
+  },
+  {
+    "name": "강동365약국",
+    "address": "서울 강동구 양재대로 1574 메디원빌딩 101호 강동365약국",
+    "phone": "02-429-0365",
+    "source_hours_text": "08:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.5459227458636,
+    "lng": 127.143349163756,
+    "geocodeStatus": "ok",
+    "id": "039",
+    "nightEligible": "full"
+  },
+  {
+    "name": "대자연약국",
+    "address": "서울 강동구 구천면로 291 대자연약국",
+    "phone": "02-474-7576",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.5459525227775,
+    "lng": 127.133552374339,
+    "geocodeStatus": "ok",
+    "id": "040",
+    "nightEligible": "full"
+  },
+  {
+    "name": "동신약국",
+    "address": "부산 금정구 금강로 180 1층 동신약국",
+    "phone": "051-582-5418",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        },
+        {
+          "open": "21:50",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        },
+        {
+          "open": "21:50",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        },
+        {
+          "open": "21:50",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        },
+        {
+          "open": "21:50",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "11:00",
+          "close": "18:00"
+        },
+        {
+          "open": "21:50",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "14:00"
+        },
+        {
+          "open": "21:50",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "21:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "lat": 35.2245627640968,
+    "lng": 129.082143799839,
+    "geocodeStatus": "ok",
+    "id": "042",
+    "nightEligible": "full"
+  },
+  {
+    "name": "우리온누리약국",
+    "address": "부산광역시 기장군 정관읍 정관중앙로 56 1층 101호 우리온누리약국",
+    "phone": "051-728-2674",
+    "source_hours_text": "00:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "00:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 35.321745931167,
+    "lng": 129.179527941348,
+    "geocodeStatus": "ok",
+    "id": "043",
+    "nightEligible": "full"
+  },
+  {
+    "name": "중앙약국",
+    "address": "부산 기장군 정관읍 정관4로 38 102호",
+    "phone": "051-728-2210",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "display_name": "메디팜 중앙약국",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "23:55"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "22:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "22:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "22:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "23:55"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "23:55"
+        }
+      ],
+      "sun": [
+        {
+          "open": "09:00",
+          "close": "23:55"
+        }
+      ]
+    },
+    "lat": 35.3261082533022,
+    "lng": 129.170976452301,
+    "geocodeStatus": "ok",
+    "id": "044",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "튼튼약국",
+    "address": "부산광역시 기장군 정관읍 정관로 615 튼튼약국",
+    "phone": "051-727-7717",
+    "source_hours_text": "09:30 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:30",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 35.3200388595269,
+    "lng": 129.180911306365,
+    "geocodeStatus": "ok",
+    "id": "045",
+    "nightEligible": "full"
+  },
+  {
+    "name": "세종약국",
+    "address": "부산광역시 수영구 광안해변로277번길 3 세종약국",
+    "phone": "051-758-4915",
+    "source_hours_text": "12:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "12:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.1560274982479,
+    "lng": 129.124006285552,
+    "geocodeStatus": "ok",
+    "id": "046",
+    "nightEligible": "full"
+  },
+  {
+    "name": "포미약국",
+    "address": "부산광역시 남구 용소로 15 1층 포미약국",
+    "phone": "051-924-4242",
+    "source_hours_text": "11:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "11:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.1359290210435,
+    "lng": 129.100949760297,
+    "geocodeStatus": "ok",
+    "id": "047",
+    "nightEligible": "full"
+  },
+  {
+    "name": "동원당약국",
+    "address": "부산 동구 범일로90번길 16-1 동원당약국",
+    "phone": "051-636-3334",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "lat": 35.1378455188551,
+    "lng": 129.061231270387,
+    "geocodeStatus": "ok",
+    "id": "048",
+    "nightEligible": "full"
+  },
+  {
+    "name": "광제약국",
+    "address": "부산 동래구 여고북로 192 1층",
+    "phone": "051-506-0365",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.2025149587253,
+    "lng": 129.075263794615,
+    "geocodeStatus": "ok",
+    "id": "049",
+    "nightEligible": "full"
+  },
+  {
+    "name": "미소약국",
+    "address": "부산광역시 부산진구 양지로5번길 31 양정동 미소약국",
+    "phone": "051-866-5156",
+    "source_hours_text": "22:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "22:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.1711410711264,
+    "lng": 129.07027742924,
+    "geocodeStatus": "ok",
+    "id": "050",
+    "nightEligible": "full"
+  },
+  {
+    "name": "사나약국",
+    "address": "부산 부산진구 중앙대로 701 1층 사나약국",
+    "phone": "0507-1369-9422",
+    "source_hours_text": "12:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "12:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.1554675375042,
+    "lng": 129.058913783101,
+    "geocodeStatus": "ok",
+    "id": "051",
+    "nightEligible": "full"
+  },
+  {
+    "name": "메디팜유리행약국",
+    "address": "부산광역시 강서구 낙동북로 74 메디팜유리행약국",
+    "phone": "051-971-6264",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.217700139729,
+    "lng": 128.937266973373,
+    "geocodeStatus": "ok",
+    "id": "052",
+    "nightEligible": "full"
+  },
+  {
+    "name": "감천무지개약국",
+    "address": "부산 사하구 옥천로 11 감천무지개약국",
+    "phone": "051-203-1032",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "18:30"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "18:30"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "18:30"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "18:30"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "18:30"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "13:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "lat": 35.0886829050122,
+    "lng": 129.005248901708,
+    "geocodeStatus": "ok",
+    "id": "053",
+    "nightEligible": "full"
+  },
+  {
+    "name": "영광약국",
+    "address": "부산 서구 대영로 65-1 .",
+    "phone": "051-247-7989",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "lat": 35.1104025133799,
+    "lng": 129.018379756175,
+    "geocodeStatus": "ok",
+    "id": "054",
+    "nightEligible": "full"
+  },
+  {
+    "name": "정화약국",
+    "address": "부산광역시 서구 대티로 167",
+    "phone": "051-241-0110",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.1127398399184,
+    "lng": 129.011652194568,
+    "geocodeStatus": "ok",
+    "id": "055",
+    "nightEligible": "full"
+  },
+  {
+    "name": "한빛메디칼약국",
+    "address": "부산 연제구 연수로 137 한빛메디칼약국",
+    "phone": "051-862-6132",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.174924426177,
+    "lng": 129.08589122843,
+    "geocodeStatus": "ok",
+    "id": "056",
+    "nightEligible": "full"
+  },
+  {
+    "name": "지성약국",
+    "address": "부산 영도구 상리로 1 3단지상가 110호",
+    "phone": "051-403-2122",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ]
+    },
+    "lat": 35.0856395176363,
+    "lng": 129.069877449987,
+    "geocodeStatus": "ok",
+    "id": "057",
+    "nightEligible": "full"
+  },
+  {
+    "name": "센텀홍은약국",
+    "address": "부산광역시 해운대구 센텀2로 10 1층",
+    "phone": "051-746-1131",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.1678303309299,
+    "lng": 129.131522464341,
+    "geocodeStatus": "ok",
+    "id": "058",
+    "nightEligible": "full"
+  },
+  {
+    "name": "엘시티2층365하나약국",
+    "address": "부산 해운대구 달맞이길 30 포디움동 2013, 2014호",
+    "phone": "0507-136-7232",
+    "source_hours_text": "09:00 ~ 23:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "23:00",
+      "overnight": false
+    },
+    "lat": 35.1613327099223,
+    "lng": 129.168013841974,
+    "geocodeStatus": "ok",
+    "id": "059",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "한성약국",
+    "address": "대구 중구 중앙대로 386-1 1층 한성약국",
+    "phone": "053-425-5575",
+    "source_hours_text": "10:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "10:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 35.8674547025487,
+    "lng": 128.593792378932,
+    "geocodeStatus": "ok",
+    "id": "061",
+    "nightEligible": "full"
+  },
+  {
+    "name": "한일약국",
+    "address": "대구 중구 국채보상로 598 1층 한일약국",
+    "phone": "053-424-4664",
+    "source_hours_text": "09:30 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:30",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 35.8705464959604,
+    "lng": 128.596033957173,
+    "geocodeStatus": "ok",
+    "id": "062",
+    "nightEligible": "full"
+  },
+  {
+    "name": "원고개약국",
+    "address": "대구 서구 통학로48길 44 원고개약국",
+    "phone": "053-558-3711",
+    "source_hours_text": "08:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 35.8811983333624,
+    "lng": 128.567823678753,
+    "geocodeStatus": "ok",
+    "id": "063",
+    "nightEligible": "full"
+  },
+  {
+    "name": "천일약국(공공자정약국)",
+    "address": "대구 서구 서대구로 188 천일약국",
+    "phone": "053-554-7997",
+    "source_hours_text": "09:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 35.8747668272702,
+    "lng": 128.555211732405,
+    "geocodeStatus": "ok",
+    "id": "064",
+    "nightEligible": "full"
+  },
+  {
+    "name": "강북약국",
+    "address": "대구 북구 칠곡중앙대로 450 101호 강북약국",
+    "phone": "053-323-8736",
+    "source_hours_text": "08:00 ~ 23:30",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "23:30",
+      "overnight": false
+    },
+    "lat": 35.9359091027749,
+    "lng": 128.549446019176,
+    "geocodeStatus": "ok",
+    "id": "066",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "정성약국",
+    "address": "대구광역시 북구 동북로 254 1층 정성약국",
+    "phone": "053-216-9115",
+    "source_hours_text": "09:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 35.8945716062702,
+    "lng": 128.618320312964,
+    "geocodeStatus": "ok",
+    "id": "067",
+    "nightEligible": "full"
+  },
+  {
+    "name": "세왕약국",
+    "address": "대구 수성구 명덕로 382 세왕약국",
+    "phone": "053-765-8636",
+    "source_hours_text": "09:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 35.8543566174151,
+    "lng": 128.611955776382,
+    "geocodeStatus": "ok",
+    "id": "068",
+    "nightEligible": "full"
+  },
+  {
+    "name": "삼일약국",
+    "address": "대구 달서구 와룡로 123 죽전역 동화이이위시 113호 삼일약국",
+    "phone": "053-568-3375",
+    "source_hours_text": "09:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 35.8437974041086,
+    "lng": 128.535846730497,
+    "geocodeStatus": "ok",
+    "id": "070",
+    "nightEligible": "full"
+  },
+  {
+    "name": "월성사랑약국",
+    "address": "대구 달서구 조암로 32 신월성미소지움 116호 월성사랑약국",
+    "phone": "053-635-7300",
+    "source_hours_text": "09:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 35.8252257871689,
+    "lng": 128.526217475663,
+    "geocodeStatus": "ok",
+    "id": "071",
+    "nightEligible": "full"
+  },
+  {
+    "name": "미소약국",
+    "address": "대구광역시 달성군 다사읍 달구벌대로 863 미소약국(공공심야약국은 21:00 ~ 24:00 운영)",
+    "phone": "053-592-0400",
+    "source_hours_text": "09:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 35.8589507415728,
+    "lng": 128.464438066267,
+    "geocodeStatus": "ok",
+    "id": "072",
+    "nightEligible": "full"
+  },
+  {
+    "name": "백제약국",
+    "address": "인천 동구 화수로 18 동부센터레빌상가 103호",
+    "phone": "032-764-5747",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "21:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "21:30"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "21:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "21:30"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "14:00",
+          "close": "21:30"
+        }
+      ]
+    },
+    "notes": "매달 둘째, 셋째 일요일 휴무 / 수·토 심야 운영",
+    "lat": 37.4812396953963,
+    "lng": 126.635609706846,
+    "geocodeStatus": "ok",
+    "id": "073",
+    "nightEligible": "full"
+  },
+  {
+    "name": "인일약국",
+    "address": "인천 중구 연안부두로 9 1층",
+    "phone": "032-883-9919",
+    "source_hours_text": "07:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "07:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.4565300914733,
+    "lng": 126.60470163134,
+    "geocodeStatus": "ok",
+    "id": "074",
+    "nightEligible": "full"
+  },
+  {
+    "name": "튼튼약국",
+    "address": "인천 중구 하늘중앙로195번길 11 103호",
+    "phone": "032-752-8576",
+    "source_hours_text": "11:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "11:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.489970396493,
+    "lng": 126.561031219226,
+    "geocodeStatus": "ok",
+    "id": "075",
+    "nightEligible": "full"
+  },
+  {
+    "name": "하늘그린약국",
+    "address": "인천 중구 신도시남로 137 화평빌딩 110호",
+    "phone": "032-752-3112",
+    "source_hours_text": "08:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.4936747767783,
+    "lng": 126.490071874241,
+    "geocodeStatus": "ok",
+    "id": "076",
+    "nightEligible": "full"
+  },
+  {
+    "name": "삼성온누리약국",
+    "address": "인천 미추홀구 낙섬서로 4 102-2호",
+    "phone": "032-881-8171",
+    "source_hours_text": "08:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": null,
+    "lng": null,
+    "geocodeStatus": "not_found",
+    "geocodeRaw": {
+      "documents": [],
+      "meta": {
+        "is_end": true,
+        "pageable_count": 0,
+        "total_count": 0
+      }
+    },
+    "id": "077",
+    "nightEligible": "full"
+  },
+  {
+    "name": "별온누리약국",
+    "address": "인천 연수구 하모니로 158 송도타임스페이스 A동 110-112호",
+    "phone": "032-832-9933",
+    "source_hours_text": "08:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.3832947004154,
+    "lng": 126.64225604799,
+    "geocodeStatus": "ok",
+    "id": "081",
+    "nightEligible": "full"
+  },
+  {
+    "name": "송도제일약국",
+    "address": "인천 연수구 송도국제대로 157 1층 A-111호",
+    "phone": "032-817-8864",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:20",
+          "close": "20:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:20",
+          "close": "20:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:20",
+          "close": "20:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:40",
+          "close": "14:30"
+        }
+      ],
+      "sun": null,
+      "holiday": null
+    },
+    "notes": "매주 일요일/공휴일 휴무, 05/05 어린이날 휴무",
+    "lat": 37.3809410558608,
+    "lng": 126.656664161119,
+    "geocodeStatus": "ok",
+    "id": "083",
+    "nightEligible": "full"
+  },
+  {
+    "name": "보광약국",
+    "address": "인천광역시 남동구 경인로 586 (간석동)",
+    "phone": "032-427-9729",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "lat": 37.4641695619198,
+    "lng": 126.702908006951,
+    "geocodeStatus": "ok",
+    "id": "084",
+    "nightEligible": "full"
+  },
+  {
+    "name": "이약국",
+    "address": "인천 남동구 백범로 275 (간석동 913=21) 이약국내",
+    "phone": "032-439-4802",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "display_name": "이약국(이파마시)",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "19:30"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "19:30"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "19:30"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "19:30"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "19:30"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "16:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "lat": 37.461436382361,
+    "lng": 126.718829197209,
+    "geocodeStatus": "ok",
+    "id": "086",
+    "nightEligible": "full"
+  },
+  {
+    "name": "조은약국",
+    "address": "인천광역시 남동구 남동대로370번길 113 (논현동,우진프라자)",
+    "phone": "032-433-2991",
+    "source_hours_text": "09:00 ~ 22:00",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "lat": 37.4137848539187,
+    "lng": 126.711969359552,
+    "geocodeStatus": "ok",
+    "id": "087",
+    "nightEligible": "full"
+  },
+  {
+    "name": "동광약국",
+    "address": "인천광역시 부평구 부흥로 314-1 (부평동)",
+    "phone": "032-524-4990",
+    "source_hours_text": "10:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "10:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.4981582664945,
+    "lng": 126.726824410989,
+    "geocodeStatus": "ok",
+    "id": "088",
+    "nightEligible": "full"
+  },
+  {
+    "name": "동암프라자약국",
+    "address": "인천광역시 부평구 열우물로 50 (십정동)",
+    "phone": "032-421-8642",
+    "source_hours_text": "00:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "00:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 37.4725891027303,
+    "lng": 126.70090143385,
+    "geocodeStatus": "ok",
+    "id": "089",
+    "nightEligible": "full"
+  },
+  {
+    "name": "일신약국",
+    "address": "인천광역시 부평구 일신로14번길 10 1층 (일신동)",
+    "phone": "032-502-7582",
+    "source_hours_text": "21:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "21:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.4840063914085,
+    "lng": 126.745016916837,
+    "geocodeStatus": "ok",
+    "id": "090",
+    "nightEligible": "full"
+  },
+  {
+    "name": "인천제일큰약국",
+    "address": "인천 계양구 장제로 789 동림빌딩 1층",
+    "phone": "032-543-5433",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.538415998975,
+    "lng": 126.734101772778,
+    "geocodeStatus": "ok",
+    "id": "092",
+    "nightEligible": "full"
+  },
+  {
+    "name": "검단아라태평양약국",
+    "address": "인천 서구 이음대로 378 109호 (원당동, 로뎀타워)",
+    "phone": "032-561-7766",
+    "source_hours_text": "08:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.5939192277609,
+    "lng": 126.712595876122,
+    "geocodeStatus": "ok",
+    "id": "094",
+    "nightEligible": "full"
+  },
+  {
+    "name": "레몬약국",
+    "address": "인천 서구 검단로 480 115호 (왕길동)",
+    "phone": "032-562-1088",
+    "source_hours_text": "08:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.6018003288816,
+    "lng": 126.657612083112,
+    "geocodeStatus": "ok",
+    "id": "095",
+    "nightEligible": "full"
+  },
+  {
+    "name": "루원봄약국",
+    "address": "인천 서구 봉오대로 255 눈담봄플라자 104호 105호",
+    "phone": "032-563-1486",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:30",
+          "close": "16:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "11:00",
+          "close": "17:00"
+        }
+      ]
+    },
+    "notes": "평일 공공심야약국 운영(22:00~01:00), 주말 심야 미운영",
+    "lat": 37.5251414293027,
+    "lng": 126.677901385424,
+    "geocodeStatus": "ok",
+    "id": "096",
+    "nightEligible": "full"
+  },
+  {
+    "name": "메디피아약국",
+    "address": "인천 서구 완정로 172 109호 메디피아약국",
+    "phone": "032-562-0258",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "lat": 37.6026004980209,
+    "lng": 126.657426885404,
+    "geocodeStatus": "ok",
+    "id": "097",
+    "nightEligible": "full"
+  },
+  {
+    "name": "오렌지약국",
+    "address": "광주광역시 동구 남문로 642",
+    "phone": "010-5889-5404",
+    "source_hours_text": "08:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.1281865826427,
+    "lng": 126.930765927099,
+    "geocodeStatus": "ok",
+    "id": "100",
+    "nightEligible": "full"
+  },
+  {
+    "name": "금호스타약국",
+    "address": "광주 서구 금화로 71 금호스타약국",
+    "phone": "062-383-8255",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.132452399514,
+    "lng": 126.856527899554,
+    "geocodeStatus": "ok",
+    "id": "101",
+    "nightEligible": "full"
+  },
+  {
+    "name": "종원종로약국",
+    "address": "광주광역시 서구 화개1로 57 종원종로약국",
+    "phone": "062-682-7515",
+    "source_hours_text": "08:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.129191402081,
+    "lng": 126.854974337914,
+    "geocodeStatus": "ok",
+    "id": "103",
+    "nightEligible": "full"
+  },
+  {
+    "name": "나래약국",
+    "address": "광주 남구 대남대로 131 1층 나래약국",
+    "phone": "062-675-0203",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.13369738137,
+    "lng": 126.910707162111,
+    "geocodeStatus": "ok",
+    "id": "104",
+    "nightEligible": "full"
+  },
+  {
+    "name": "해오름온누리약국",
+    "address": "광주광역시 남구 양림로 38 해오름온누리약국",
+    "phone": "062-654-9933",
+    "source_hours_text": "08:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 35.1365676176677,
+    "lng": 126.913224868692,
+    "geocodeStatus": "ok",
+    "id": "105",
+    "nightEligible": "full"
+  },
+  {
+    "name": "라온약국",
+    "address": "광주 광산구 송도로 160 라온약국",
+    "phone": "062-946-0325",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.1287665863158,
+    "lng": 126.792971962519,
+    "geocodeStatus": "ok",
+    "id": "107",
+    "nightEligible": "full"
+  },
+  {
+    "name": "건강약국",
+    "address": "대전광역시 대덕구 중리로 60 (중리동) 1층",
+    "phone": "042-626-9707",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 36.3643577951079,
+    "lng": 127.42530911409,
+    "geocodeStatus": "ok",
+    "id": "108",
+    "nightEligible": "full"
+  },
+  {
+    "name": "동이약국",
+    "address": "대전광역시 대덕구 대전로 1123 동이약국",
+    "phone": "042-673-0108",
+    "source_hours_text": "07:00 ~ 23:30",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "07:00",
+      "daily_close": "23:30",
+      "overnight": false
+    },
+    "lat": 36.3547493411174,
+    "lng": 127.414740105531,
+    "geocodeStatus": "ok",
+    "id": "109",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "대우약국",
+    "address": "대전 중구 중앙로 125-1 대우약국",
+    "phone": "042-256-1058",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "lat": 36.3280799719883,
+    "lng": 127.423679073872,
+    "geocodeStatus": "ok",
+    "id": "110",
+    "nightEligible": "full"
+  },
+  {
+    "name": "도마태평양약국",
+    "address": "대전 서구 배재로 182-1 도마태평양약국",
+    "phone": "010-2781-9022",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "09:30",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:30",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:30",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:30",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:30",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:30",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "13:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "notes": "365일 운영",
+    "lat": 36.3246281250998,
+    "lng": 127.370562476791,
+    "geocodeStatus": "ok",
+    "id": "111",
+    "nightEligible": "full"
+  },
+  {
+    "name": "동광온누리약국",
+    "address": "울산 중구 손골4길 6 동광온누리약국",
+    "phone": "052-296-6786",
+    "source_hours_text": "14:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "14:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.5636006034311,
+    "lng": 129.326053923424,
+    "geocodeStatus": "ok",
+    "id": "112",
+    "nightEligible": "full"
+  },
+  {
+    "name": "가람약국",
+    "address": "울산 남구 삼산로 159-1 가람약국",
+    "phone": "052-257-7584",
+    "source_hours_text": "09:00 ~ 26:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "02:00",
+      "overnight": true
+    },
+    "lat": 35.537046975252,
+    "lng": 129.324683676429,
+    "geocodeStatus": "ok",
+    "id": "113",
+    "nightEligible": "full"
+  },
+  {
+    "name": "주약국",
+    "address": "울산 남구 돋질로 369 주약국",
+    "phone": "052-267-7588",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.5439733460922,
+    "lng": 129.345305570761,
+    "geocodeStatus": "ok",
+    "id": "114",
+    "nightEligible": "full"
+  },
+  {
+    "name": "GM약국",
+    "address": "울산 울주군 범서읍 구영로 86 GM프라자 202호",
+    "phone": "052-211-2285",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.5748284455209,
+    "lng": 129.240983839893,
+    "geocodeStatus": "ok",
+    "id": "115",
+    "nightEligible": "full"
+  },
+  {
+    "name": "삼성약국",
+    "address": "경기 고양시 덕양구 중앙로558번길 13 102호",
+    "phone": "031-979-7366",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.6243833128245,
+    "lng": 126.835830183281,
+    "geocodeStatus": "ok",
+    "id": "116",
+    "nightEligible": "full"
+  },
+  {
+    "name": "우리온누리약국",
+    "address": "경기도 고양시 일산동구 위시티로 34 103호",
+    "phone": "031-969-9004",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.6754948581978,
+    "lng": 126.8090731292,
+    "geocodeStatus": "ok",
+    "id": "117",
+    "nightEligible": "full"
+  },
+  {
+    "name": "주엽1번출구약국",
+    "address": "경기 고양시 일산서구 중앙로 1421 1층",
+    "phone": "031-911-3111",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "09:30",
+          "close": "13:00"
+        },
+        {
+          "open": "14:00",
+          "close": "18:00"
+        },
+        {
+          "open": "19:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:30",
+          "close": "13:00"
+        },
+        {
+          "open": "14:00",
+          "close": "18:00"
+        },
+        {
+          "open": "19:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:30",
+          "close": "13:00"
+        },
+        {
+          "open": "14:00",
+          "close": "18:00"
+        },
+        {
+          "open": "19:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:30",
+          "close": "13:00"
+        },
+        {
+          "open": "14:00",
+          "close": "18:00"
+        },
+        {
+          "open": "19:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:30",
+          "close": "13:00"
+        },
+        {
+          "open": "14:00",
+          "close": "18:00"
+        },
+        {
+          "open": "19:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:30",
+          "close": "14:00"
+        },
+        {
+          "open": "15:00",
+          "close": "18:00"
+        },
+        {
+          "open": "19:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "21:30",
+          "close": "01:00"
+        }
+      ]
+    },
+    "lat": 37.669441197831,
+    "lng": 126.762006055778,
+    "geocodeStatus": "ok",
+    "id": "118",
+    "nightEligible": "full"
+  },
+  {
+    "name": "킨텍스아는약국",
+    "address": "경기도 고양시 일산서구 킨텍스로 240 킨텍스꿈에그린 오피스 202동 1층 142",
+    "phone": "031-911-6002",
+    "source_hours_text": "08:30 ~ 23:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "23:00",
+      "overnight": false
+    },
+    "lat": 37.6658756486743,
+    "lng": 126.751042108317,
+    "geocodeStatus": "ok",
+    "id": "119",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "케어약국",
+    "address": "경기 과천시 별양로 142 120호,129호",
+    "phone": "02-504-1381",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "10:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "10:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "10:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "10:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "10:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "01:00"
+        }
+      ],
+      "holiday": [
+        {
+          "open": "10:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "lat": 37.430304115121,
+    "lng": 126.998953309818,
+    "geocodeStatus": "ok",
+    "id": "120",
+    "nightEligible": "full"
+  },
+  {
+    "name": "하늘약국",
+    "address": "경기도 광명시 오리로 351 동림프라자 1층",
+    "phone": "02-898-7290",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.4340730302324,
+    "lng": 126.879077518176,
+    "geocodeStatus": "ok",
+    "id": "121",
+    "nightEligible": "full"
+  },
+  {
+    "name": "메디팜365약국",
+    "address": "경기도 구리시 검배로6번길 3 1층",
+    "phone": "031-552-7071",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.6002125345758,
+    "lng": 127.141464409097,
+    "geocodeStatus": "ok",
+    "id": "123",
+    "nightEligible": "full"
+  },
+  {
+    "name": "건강백세약국",
+    "address": "경기 김포시 양촌읍 양곡로 530 1층",
+    "phone": "031-981-8360",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "notes": "매달 2,4째 일요일은 22:00~01:00만 운영",
+    "lat": 37.6551986735654,
+    "lng": 126.62450953173,
+    "geocodeStatus": "ok",
+    "id": "124",
+    "nightEligible": "full"
+  },
+  {
+    "name": "한사랑 약국",
+    "address": "경기도 김포시 감암로 7 한사랑약국",
+    "phone": "031-983-1357",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "18:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "18:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "18:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "18:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "18:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "14:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "notes": "평일 18:00~22:00 휴게 / 토 14:00~22:00 휴게 / 심야는 연중무휴",
+    "lat": 37.631913707594,
+    "lng": 126.711190977538,
+    "geocodeStatus": "ok",
+    "id": "125",
+    "nightEligible": "full"
+  },
+  {
+    "name": "온두레생연약국",
+    "address": "경기 동두천시 정장로 37 온두레생연약국",
+    "phone": "031-859-0179",
+    "source_hours_text": "09:00 ~ 23:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "23:00",
+      "overnight": false
+    },
+    "lat": 37.9042980135337,
+    "lng": 127.055007656426,
+    "geocodeStatus": "ok",
+    "id": "126",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "메디팜큰약국",
+    "address": "경기도 부천시 소사로 758 1층",
+    "phone": "032-679-2533",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.5236927865812,
+    "lng": 126.805204311739,
+    "geocodeStatus": "ok",
+    "id": "127",
+    "nightEligible": "full"
+  },
+  {
+    "name": "부부약국",
+    "address": "경기도 부천시 범안로 1 부부약국",
+    "phone": "032-343-8871",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.4811433938441,
+    "lng": 126.805367849191,
+    "geocodeStatus": "ok",
+    "id": "128",
+    "nightEligible": "full"
+  },
+  {
+    "name": "뿌리약국",
+    "address": "경기도 부천시 부천로 34 1층 뿌리약국",
+    "phone": "032-664-2561",
+    "source_hours_text": "08:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.4871691034323,
+    "lng": 126.783734912863,
+    "geocodeStatus": "ok",
+    "id": "129",
+    "nightEligible": "full"
+  },
+  {
+    "name": "새현대약국",
+    "address": "경기도 부천시 역곡로 8 새현대약국",
+    "phone": "032-341-7467",
+    "source_hours_text": "08:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.4861121616416,
+    "lng": 126.811752037108,
+    "geocodeStatus": "ok",
+    "id": "130",
+    "nightEligible": "full"
+  },
+  {
+    "name": "더편한365모란약국",
+    "address": "경기 성남시 수정구 성남대로 1169 더편한365모란약국",
+    "phone": "031-721-3650",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.4341999876016,
+    "lng": 127.128435648849,
+    "geocodeStatus": "ok",
+    "id": "132",
+    "nightEligible": "full"
+  },
+  {
+    "name": "산성메디칼약국",
+    "address": "경기도 성남시 수정구 희망로 551 C상가 106호",
+    "phone": "0708-287-2387",
+    "source_hours_text": "08:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.4517098236653,
+    "lng": 127.149597913056,
+    "geocodeStatus": "ok",
+    "id": "133",
+    "nightEligible": "full"
+  },
+  {
+    "name": "성남참조은약국",
+    "address": "경기도 성남시 수정구 수정로 175 107호(태평동, 동일빌딩)",
+    "phone": "031-609-1113",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.4434432386114,
+    "lng": 127.1392483355,
+    "geocodeStatus": "ok",
+    "id": "134",
+    "nightEligible": "full"
+  },
+  {
+    "name": "위례수약국",
+    "address": "경기도 성남시 수정구 위례서일로 18 더존메디컬타워 1층",
+    "phone": "031-756-0365",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.4651338975423,
+    "lng": 127.137825290089,
+    "geocodeStatus": "ok",
+    "id": "135",
+    "nightEligible": "full"
+  },
+  {
+    "name": "행복한온누리약국",
+    "address": "경기 성남시 분당구 정자일로198번길 15 1층 행복한온누리약국",
+    "phone": "031-714-0288",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.3676778899996,
+    "lng": 127.107685983703,
+    "geocodeStatus": "ok",
+    "id": "137",
+    "nightEligible": "full"
+  },
+  {
+    "name": "링컨약국",
+    "address": "경기도 수원시 권선구 금호로 213 링컨약국",
+    "phone": "031-291-1501",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.2753589020081,
+    "lng": 126.973410430619,
+    "geocodeStatus": "ok",
+    "id": "139",
+    "nightEligible": "full"
+  },
+  {
+    "name": "수원제일큰약국",
+    "address": "경기도 수원시 팔달구 중부대로 20 1층",
+    "phone": "031-8067-7474",
+    "source_hours_text": "08:00 ~ 23:30",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "23:30",
+      "overnight": false
+    },
+    "lat": 37.2749709615312,
+    "lng": 127.018825885077,
+    "geocodeStatus": "ok",
+    "id": "141",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "거북섬마린약국",
+    "address": "경기 시흥시 거북섬로 219 셀럽시티104,105호",
+    "phone": "031-499-5469",
+    "source_hours_text": "21:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "21:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 37.3235257897755,
+    "lng": 126.688336236699,
+    "geocodeStatus": "ok",
+    "id": "144",
+    "nightEligible": "full"
+  },
+  {
+    "name": "도담약국",
+    "address": "경기도 시흥시 장현순환로 1 메인프라자 104호",
+    "phone": "031-311-0077",
+    "source_hours_text": "10:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "10:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 37.3806744492306,
+    "lng": 126.793639691659,
+    "geocodeStatus": "ok",
+    "id": "145",
+    "nightEligible": "full"
+  },
+  {
+    "name": "동의세란약국",
+    "address": "경기도 시흥시 봉우재로 10 임마누엘치과 1층, 굽네치킨 옆",
+    "phone": "031-319-2539",
+    "source_hours_text": "09:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.3441381880143,
+    "lng": 126.743093565087,
+    "geocodeStatus": "ok",
+    "id": "146",
+    "nightEligible": "full"
+  },
+  {
+    "name": "아름약국",
+    "address": "경기 시흥시 수인로3381번길 27 제1동 제1층105호",
+    "phone": "031-404-9176",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.438877538147,
+    "lng": 126.782682966274,
+    "geocodeStatus": "ok",
+    "id": "147",
+    "nightEligible": "full"
+  },
+  {
+    "name": "솔솔약국",
+    "address": "경기 안산시 단원구 고잔로 108 대동조이월드빌딩 129-2호 솔솔약국",
+    "phone": "031-401-7622",
+    "source_hours_text": "08:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.3185731848194,
+    "lng": 126.838037384741,
+    "geocodeStatus": "ok",
+    "id": "148",
+    "nightEligible": "full"
+  },
+  {
+    "name": "영생약국",
+    "address": "경기도 안성시 공도읍 서동대로 4081 주은풍림상가 101호",
+    "phone": "031-651-8276",
+    "source_hours_text": "08:30 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 36.9982337462058,
+    "lng": 127.159610599339,
+    "geocodeStatus": "ok",
+    "id": "150",
+    "nightEligible": "full"
+  },
+  {
+    "name": "새봄온누리약국",
+    "address": "경기 안양시 동안구 평촌대로211번길 16 삼희월드프라자 108호",
+    "phone": "031-381-8278",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "10:00",
+          "close": "13:30"
+        },
+        {
+          "open": "14:30",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "10:00",
+          "close": "13:30"
+        },
+        {
+          "open": "14:30",
+          "close": "01:00"
+        }
+      ]
+    },
+    "lat": 37.3903721025077,
+    "lng": 126.955033371556,
+    "geocodeStatus": "ok",
+    "id": "151",
+    "nightEligible": "full"
+  },
+  {
+    "name": "세종온누리약국",
+    "address": "경기도 안양시 만안구 안양로 148 1층",
+    "phone": "031-449-6679",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.387696451748,
+    "lng": 126.931128413706,
+    "geocodeStatus": "ok",
+    "id": "152",
+    "nightEligible": "full"
+  },
+  {
+    "name": "지성약국",
+    "address": "경기 안양시 동안구 경수대로 584 37 104호",
+    "phone": "010-2955-5990",
+    "source_hours_text": "10:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "10:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": null,
+    "lng": null,
+    "geocodeStatus": "not_found",
+    "geocodeRaw": {
+      "documents": [],
+      "meta": {
+        "is_end": true,
+        "pageable_count": 0,
+        "total_count": 0
+      }
+    },
+    "id": "153",
+    "nightEligible": "full"
+  },
+  {
+    "name": "초원약국",
+    "address": "경기 안양시 만안구 만안로 323 1195-5",
+    "phone": "031-449-5601",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "lat": null,
+    "lng": null,
+    "geocodeStatus": "not_found",
+    "geocodeRaw": {
+      "documents": [],
+      "meta": {
+        "is_end": true,
+        "pageable_count": 0,
+        "total_count": 0
+      }
+    },
+    "id": "154",
+    "nightEligible": "full"
+  },
+  {
+    "name": "센느약국",
+    "address": "경기 오산시 수목원로 466 1층",
+    "phone": "031-376-4569",
+    "source_hours_text": "09:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.1752735518465,
+    "lng": 127.050000030329,
+    "geocodeStatus": "ok",
+    "id": "155",
+    "nightEligible": "full"
+  },
+  {
+    "name": "상현역중앙약국",
+    "address": "경기 용인시 수지구 광교중앙로 302 103호",
+    "phone": "031-262-5666",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.296841066732,
+    "lng": 127.069521766246,
+    "geocodeStatus": "ok",
+    "id": "157",
+    "nightEligible": "full"
+  },
+  {
+    "name": "셀메드주오약국",
+    "address": "경기 용인시 기흥구 구성로 98 구성빌딩",
+    "phone": "031-283-1171",
+    "source_hours_text": "09:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 37.293788566981,
+    "lng": 127.119920188351,
+    "geocodeStatus": "ok",
+    "id": "158",
+    "nightEligible": "full"
+  },
+  {
+    "name": "앞서가는21세기약국",
+    "address": "경기 용인시 수지구 대지로 20 죽전빌딩 101호",
+    "phone": "031-266-5235",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.3270500789177,
+    "lng": 127.112297552722,
+    "geocodeStatus": "ok",
+    "id": "160",
+    "nightEligible": "full"
+  },
+  {
+    "name": "센트럴약국",
+    "address": "경기도 의정부시 시민로 80 106호",
+    "phone": "031-870-1999",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.7379768684042,
+    "lng": 127.044093275039,
+    "geocodeStatus": "ok",
+    "id": "162",
+    "nightEligible": "full"
+  },
+  {
+    "name": "용수약국",
+    "address": "경기 이천시 부발읍 경충대로 2100 용수타임 1층 104호",
+    "phone": "0507-1420-1786",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "09:30",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:30",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:30",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:30",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:30",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:30",
+          "close": "24:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "21:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "lat": 37.2525105751105,
+    "lng": 127.48994489114,
+    "geocodeStatus": "ok",
+    "id": "165",
+    "nightEligible": "full"
+  },
+  {
+    "name": "가까운약국",
+    "address": "경기 파주시 문산읍 방촌로 1675-22 109호",
+    "phone": "031-952-5700",
+    "source_hours_text": "08:30 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 37.8641875181502,
+    "lng": 126.781450376373,
+    "geocodeStatus": "ok",
+    "id": "166",
+    "nightEligible": "full"
+  },
+  {
+    "name": "범진약국",
+    "address": "경기도 파주시 탄현면 약산로 80 범진약국",
+    "phone": "031-945-1585",
+    "source_hours_text": "10:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "10:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 37.7714200855955,
+    "lng": 126.70507981884,
+    "geocodeStatus": "ok",
+    "id": "167",
+    "nightEligible": "full"
+  },
+  {
+    "name": "용화당 약국",
+    "address": "경기 파주시 파주읍 혜음로 1689 경기도 파주시 연풍리286",
+    "phone": "031-953-8792",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.8285768159014,
+    "lng": 126.840003953066,
+    "geocodeStatus": "ok",
+    "id": "168",
+    "nightEligible": "full"
+  },
+  {
+    "name": "메디칼세계로약국",
+    "address": "경기도 평택시 중앙로 9-1 통복동86-25",
+    "phone": "031-657-8078",
+    "source_hours_text": "08:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 36.9956155471191,
+    "lng": 127.084533377253,
+    "geocodeStatus": "ok",
+    "id": "169",
+    "nightEligible": "full"
+  },
+  {
+    "name": "청북솔약국",
+    "address": "경기도 평택시 서정역로 47 청북솔약국",
+    "phone": "0704-176-8751",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.0581866867647,
+    "lng": 127.054928728454,
+    "geocodeStatus": "ok",
+    "id": "171",
+    "nightEligible": "full"
+  },
+  {
+    "name": "포승종로약국",
+    "address": "경기도 평택시 포승읍 여술로 37 1층 포승종로약국",
+    "phone": "031-611-5252",
+    "source_hours_text": "07:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "07:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 36.9889195906448,
+    "lng": 126.846448874101,
+    "geocodeStatus": "ok",
+    "id": "172",
+    "nightEligible": "full"
+  },
+  {
+    "name": "대학약국",
+    "address": "경기도 하남시 하남대로739번길 80 대학약국",
+    "phone": "031-792-2505",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.5365999412975,
+    "lng": 127.209042606276,
+    "geocodeStatus": "ok",
+    "id": "173",
+    "nightEligible": "full"
+  },
+  {
+    "name": "하남스타약국",
+    "address": "경기 하남시 미사대로 750 3층 하남스타약국",
+    "phone": "031-8072-8578",
+    "source_hours_text": "10:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "10:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.5454041231797,
+    "lng": 127.223940331575,
+    "geocodeStatus": "ok",
+    "id": "174",
+    "nightEligible": "full"
+  },
+  {
+    "name": "옵티마소망약국",
+    "address": "경기 광주시 경안로41번길 1 1층",
+    "phone": "031-764-9993",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "24:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "16:00",
+          "close": "24:00"
+        }
+      ]
+    },
+    "notes": "20:00~24:00 심야 운영, 연중무휴",
+    "lat": 37.4091387929462,
+    "lng": 127.256313393582,
+    "geocodeStatus": "ok",
+    "id": "177",
+    "nightEligible": "full"
+  },
+  {
+    "name": "참사랑약국",
+    "address": "경기 양주시 고읍로 96 108호 참사랑약국",
+    "phone": "031-821-5004",
+    "source_hours_text": "08:30 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 37.7954206809413,
+    "lng": 127.08135811815,
+    "geocodeStatus": "ok",
+    "id": "178",
+    "nightEligible": "full"
+  },
+  {
+    "name": "선암건강약국",
+    "address": "경기 양주시 은현면 그루고개로 703 103호",
+    "phone": "031-858-1358",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "09:30",
+          "close": "19:00"
+        },
+        {
+          "open": "21:00",
+          "close": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:30",
+          "close": "19:00"
+        },
+        {
+          "open": "21:00",
+          "close": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:30",
+          "close": "19:00"
+        },
+        {
+          "open": "21:00",
+          "close": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:30",
+          "close": "19:00"
+        },
+        {
+          "open": "21:00",
+          "close": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:30",
+          "close": "19:00"
+        },
+        {
+          "open": "21:00",
+          "close": "24:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "18:00",
+          "close": "24:00"
+        }
+      ],
+      "sun": null
+    },
+    "notes": "매주 일요일 휴무",
+    "lat": 37.8672765903616,
+    "lng": 127.022763246838,
+    "geocodeStatus": "ok",
+    "id": "179",
+    "nightEligible": "full"
+  },
+  {
+    "name": "고려약국",
+    "address": "경기도 여주시 점동면 청안로 123 고려약국",
+    "phone": "031-881-1163",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.2056187592369,
+    "lng": 127.66162893365,
+    "geocodeStatus": "ok",
+    "id": "180",
+    "nightEligible": "full"
+  },
+  {
+    "name": "청솔약국",
+    "address": "경기도 여주시 북내면 여양2로 264 청솔약국",
+    "phone": "031-882-3981",
+    "source_hours_text": "08:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.3265382462243,
+    "lng": 127.68030691275,
+    "geocodeStatus": "ok",
+    "id": "181",
+    "nightEligible": "full"
+  },
+  {
+    "name": "보건약국",
+    "address": "경기 포천시 영중면 양문로 97 A동 1층 보건약국",
+    "phone": "031-532-4251",
+    "source_hours_text": "09:00 ~ 23:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "23:00",
+      "overnight": false
+    },
+    "lat": 38.0015273540132,
+    "lng": 127.242492421962,
+    "geocodeStatus": "ok",
+    "id": "182",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "공단시장약국",
+    "address": "경기도 화성시 마도면 마도공단로1길 8 가동 근생 102호",
+    "phone": "031-357-0183",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "lat": 37.1857173330161,
+    "lng": 126.790176047399,
+    "geocodeStatus": "ok",
+    "id": "183",
+    "nightEligible": "full"
+  },
+  {
+    "name": "굿모닝약국",
+    "address": "경기 화성시 효행로 287 203",
+    "phone": "031-221-7275",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "display_name": "셀메드굿모닝약국",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "09:30",
+          "close": "19:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:30",
+          "close": "19:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:30",
+          "close": "19:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:30",
+          "close": "19:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:30",
+          "close": "19:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:30",
+          "close": "13:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "notes": "365일 22~01시 공공심야약국",
+    "lat": null,
+    "lng": null,
+    "geocodeStatus": "not_found",
+    "geocodeRaw": {
+      "documents": [],
+      "meta": {
+        "is_end": true,
+        "pageable_count": 0,
+        "total_count": 0
+      }
+    },
+    "id": "184",
+    "nightEligible": "full"
+  },
+  {
+    "name": "나이스오서약국",
+    "address": "경기 화성시 우정읍 기아자동차로 555 .",
+    "phone": "031-358-7541",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.0643516006099,
+    "lng": 126.795113387189,
+    "geocodeStatus": "ok",
+    "id": "185",
+    "nightEligible": "full"
+  },
+  {
+    "name": "상신드림약국",
+    "address": "경기 화성시 향남읍 상신하길로 66 102호 상신드림약국",
+    "phone": "031-354-6699",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "13:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "lat": 37.1004362404861,
+    "lng": 126.896604819605,
+    "geocodeStatus": "ok",
+    "id": "186",
+    "nightEligible": "full"
+  },
+  {
+    "name": "이지약국",
+    "address": "경기도 화성시 동탄순환대로 708 1층 이지약국",
+    "phone": "031-373-9970",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.2079966389442,
+    "lng": 127.110425141537,
+    "geocodeStatus": "ok",
+    "id": "187",
+    "nightEligible": "full",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "12:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "notes": "일요일 및 공휴일 12:00~01:00"
+  },
+  {
+    "name": "365대형약국",
+    "address": "강원특별자치도 춘천시 동내면 영서로 1794 1층",
+    "phone": "010-8289-2115",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.8368980488094,
+    "lng": 127.759828549762,
+    "geocodeStatus": "ok",
+    "id": "189",
+    "nightEligible": "full"
+  },
+  {
+    "name": "행복약국",
+    "address": "강원도 속초시 동해대로 4163 1층 행복약국",
+    "phone": "033-637-2825",
+    "source_hours_text": "09:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 38.1909854246426,
+    "lng": 128.579411311983,
+    "geocodeStatus": "ok",
+    "id": "191",
+    "nightEligible": "full"
+  },
+  {
+    "name": "삼삼온누리약국",
+    "address": "강원특별자치도 동해시 천곡로 50 삼삼온누리약국",
+    "phone": "033-533-3993",
+    "source_hours_text": "09:00 ~ 23:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "23:00",
+      "overnight": false
+    },
+    "lat": 37.5238304927584,
+    "lng": 129.110684166992,
+    "geocodeStatus": "ok",
+    "id": "192",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "한빛약국",
+    "address": "강원특별자치도 동해시 중앙로 214 한빛약국",
+    "phone": "033-535-8060",
+    "source_hours_text": "09:00 ~ 23:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "23:00",
+      "overnight": false
+    },
+    "lat": 37.5199274572677,
+    "lng": 129.115769403326,
+    "geocodeStatus": "ok",
+    "id": "193",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "메디팜큰사랑약국",
+    "address": "충청북도 청주시 상당구 월평로 182 큰사랑약국",
+    "phone": "043-294-8088",
+    "source_hours_text": "00:00 ~ 23:30",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "00:00",
+      "daily_close": "23:30",
+      "overnight": false
+    },
+    "lat": 36.6100304994818,
+    "lng": 127.504374621188,
+    "geocodeStatus": "ok",
+    "id": "195",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "우리윤약국",
+    "address": "충청북도 청주시 흥덕구 가로수로 1317 1층",
+    "phone": "043-233-0123",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 36.6330350360151,
+    "lng": 127.439897408498,
+    "geocodeStatus": "ok",
+    "id": "196",
+    "nightEligible": "full"
+  },
+  {
+    "name": "흥덕약국",
+    "address": "충청북도 청주시 서원구 흥덕로 70",
+    "phone": "043-262-7907",
+    "source_hours_text": "08:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 36.6416353510278,
+    "lng": 127.472596753251,
+    "geocodeStatus": "ok",
+    "id": "197",
+    "nightEligible": "full"
+  },
+  {
+    "name": "남산태평양약국",
+    "address": "충청북도 충주시 남산4길 52",
+    "phone": "043-847-8051",
+    "source_hours_text": "08:30 ~ 23:30",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "23:30",
+      "overnight": false
+    },
+    "lat": 36.966446225625,
+    "lng": 127.944853874328,
+    "geocodeStatus": "ok",
+    "id": "198",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "건강종합약국",
+    "address": "충북 진천군 진천읍 중앙동로 92-1 건강종합약국",
+    "phone": "043-534-5577",
+    "source_hours_text": "10:30 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "10:30",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 36.8581078637323,
+    "lng": 127.444809730508,
+    "geocodeStatus": "ok",
+    "id": "199",
+    "nightEligible": "full"
+  },
+  {
+    "name": "남지약국",
+    "address": "충북 괴산군 괴산읍 읍내로9길 4 .",
+    "phone": "043-833-0002",
+    "source_hours_text": "08:30 ~ 23:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "23:00",
+      "overnight": false
+    },
+    "lat": 36.8088797891162,
+    "lng": 127.794135276641,
+    "geocodeStatus": "ok",
+    "id": "200",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "성가약국",
+    "address": "충청북도 증평군 증평읍 광장로 91 성가약국",
+    "phone": "043-836-2405",
+    "source_hours_text": "08:00 ~ 23:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "23:00",
+      "overnight": false
+    },
+    "lat": 36.7856504749588,
+    "lng": 127.582766581547,
+    "geocodeStatus": "ok",
+    "id": "201",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "참조은약국",
+    "address": "충남 천안시 서북구 충무로 172 참조은약국",
+    "phone": "041-572-0002",
+    "source_hours_text": "08:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 36.7940065781911,
+    "lng": 127.126468501505,
+    "geocodeStatus": "ok",
+    "id": "203",
+    "nightEligible": "full"
+  },
+  {
+    "name": "천안제일약국",
+    "address": "충남 천안시 동남구 버들로 41 1층 101호 천안제일약국",
+    "phone": "0707-787-1111",
+    "source_hours_text": "08:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 36.8072127264762,
+    "lng": 127.152028125659,
+    "geocodeStatus": "ok",
+    "id": "205",
+    "nightEligible": "full"
+  },
+  {
+    "name": "가장큰약국",
+    "address": "충청남도 아산시 모종남로12번길 9 가장큰약국",
+    "phone": "0507-1319-8953",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:30",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "lat": 36.7789485902739,
+    "lng": 127.020760472675,
+    "geocodeStatus": "ok",
+    "id": "206",
+    "nightEligible": "full"
+  },
+  {
+    "name": "풍기온누리약국",
+    "address": "충남 아산시 남부로 321-21 1층 풍기온누리약국",
+    "phone": "041-531-6555",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "08:30",
+          "close": "21:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:30",
+          "close": "21:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:30",
+          "close": "13:00"
+        },
+        {
+          "open": "16:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:30",
+          "close": "21:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:30",
+          "close": "21:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:30",
+          "close": "19:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "notes": "요일별 휴게 상이, 일요일 심야만 운영",
+    "lat": 36.7737165487465,
+    "lng": 127.015956695995,
+    "geocodeStatus": "ok",
+    "id": "207",
+    "nightEligible": "full"
+  },
+  {
+    "name": "정약국",
+    "address": "충청남도 서산시 안견로 284 서산프라자 정약국",
+    "phone": "041-667-7584",
+    "source_hours_text": "08:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 36.7775151948015,
+    "lng": 126.451958560665,
+    "geocodeStatus": "ok",
+    "id": "208",
+    "nightEligible": "full"
+  },
+  {
+    "name": "튼튼약국",
+    "address": "충청남도 당진시 당진중앙2로 113 튼튼약국",
+    "phone": "041-352-4681",
+    "source_hours_text": "08:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 36.8944470817699,
+    "lng": 126.630942971749,
+    "geocodeStatus": "ok",
+    "id": "210",
+    "nightEligible": "full"
+  },
+  {
+    "name": "아람약국",
+    "address": "세종특별자치시 보듬3로 143 102호 아람약국",
+    "phone": "044-862-5265",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 36.5116253009997,
+    "lng": 127.243624687358,
+    "geocodeStatus": "ok",
+    "id": "211",
+    "nightEligible": "full"
+  },
+  {
+    "name": "허약국",
+    "address": "세종특별자치시 조치원읍 조치원로 42 42-2",
+    "phone": "044-865-7900",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "09:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "lat": null,
+    "lng": null,
+    "geocodeStatus": "not_found",
+    "geocodeRaw": {
+      "documents": [],
+      "meta": {
+        "is_end": true,
+        "pageable_count": 0,
+        "total_count": 0
+      }
+    },
+    "id": "212",
+    "nightEligible": "full"
+  },
+  {
+    "name": "365인후대형온누리약국",
+    "address": "전라북도 전주시 덕진구 무삼지로 66 365인후대형온누리약국",
+    "phone": "063-245-3007",
+    "source_hours_text": "08:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.8315129961408,
+    "lng": 127.163473737249,
+    "geocodeStatus": "ok",
+    "id": "213",
+    "nightEligible": "full"
+  },
+  {
+    "name": "사랑약국",
+    "address": "전라북도 전주시 완산구 백제대로 74 사랑약국",
+    "phone": "063-229-1400",
+    "source_hours_text": "09:00 ~ 23:30",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "23:30",
+      "overnight": false
+    },
+    "lat": 35.8008779671955,
+    "lng": 127.12777389215,
+    "geocodeStatus": "ok",
+    "id": "214",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "염약국",
+    "address": "전북특별자치도 전주시 덕진구 매봉로 29-1 염약국",
+    "phone": "063-278-7989",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.8403960975229,
+    "lng": 127.140803960995,
+    "geocodeStatus": "ok",
+    "id": "216",
+    "nightEligible": "full"
+  },
+  {
+    "name": "올리브약국",
+    "address": "전북 익산시 서동로 112 103호",
+    "phone": "063-856-5677",
+    "source_hours_text": "14:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "14:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.9343381460337,
+    "lng": 126.963893077053,
+    "geocodeStatus": "ok",
+    "id": "218",
+    "nightEligible": "full"
+  },
+  {
+    "name": "샘골약국",
+    "address": "전북 정읍시 수성로 50 샘골약국",
+    "phone": "063-538-0222",
+    "source_hours_text": "08:30 ~ 23:30",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "23:30",
+      "overnight": false
+    },
+    "lat": 35.5820902170397,
+    "lng": 126.855690311642,
+    "geocodeStatus": "ok",
+    "id": "219",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "서남온누리약국",
+    "address": "전라북도 남원시 시청로 59 서남온누리약국",
+    "phone": "063-632-2488",
+    "source_hours_text": "08:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.4155819048908,
+    "lng": 127.389459436867,
+    "geocodeStatus": "ok",
+    "id": "220",
+    "nightEligible": "full"
+  },
+  {
+    "name": "세화약국",
+    "address": "전라북도 완주군 삼례읍 삼례로 383 세화약국",
+    "phone": "010-8207-0006",
+    "source_hours_text": "08:30 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 35.9111798658955,
+    "lng": 127.0716064048,
+    "geocodeStatus": "ok",
+    "id": "221",
+    "nightEligible": "full"
+  },
+  {
+    "name": "제일약국",
+    "address": "전라북도 순창군 순창읍 순창로 232 .",
+    "phone": "063-653-2712",
+    "source_hours_text": "07:30 ~ 23:30",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "07:30",
+      "daily_close": "23:30",
+      "overnight": false
+    },
+    "lat": 35.3756720623926,
+    "lng": 127.14353968724,
+    "geocodeStatus": "ok",
+    "id": "222",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "더조은약국",
+    "address": "전라북도 부안군 부안읍 번영로 145 더조은약국",
+    "phone": "063-584-0994",
+    "source_hours_text": "08:10 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:10",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.7263415122273,
+    "lng": 126.736426927205,
+    "geocodeStatus": "ok",
+    "id": "223",
+    "nightEligible": "full"
+  },
+  {
+    "name": "로뎀온누리약국",
+    "address": "전남 목포시 청호로 154 로뎀온누리약국",
+    "phone": "061-278-6705",
+    "source_hours_text": "08:30 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 34.8049509155869,
+    "lng": 126.375175310511,
+    "geocodeStatus": "ok",
+    "id": "224",
+    "nightEligible": "full"
+  },
+  {
+    "name": "비타민약국",
+    "address": "전라남도 목포시 하당로 278",
+    "phone": "061-284-7571",
+    "source_hours_text": "08:30 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 34.8110671240451,
+    "lng": 126.426427484265,
+    "geocodeStatus": "ok",
+    "id": "225",
+    "nightEligible": "full"
+  },
+  {
+    "name": "오렌지은약국",
+    "address": "전라남도 여수시 시청로 34 101호",
+    "phone": "061-685-9400",
+    "source_hours_text": "08:30 ~ 23:30",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "23:30",
+      "overnight": false
+    },
+    "lat": 34.7647444431235,
+    "lng": 127.663325738331,
+    "geocodeStatus": "ok",
+    "id": "227",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "오가네약국",
+    "address": "전라남도 순천시 해룡면 신대로 116 해룡면",
+    "phone": "061-724-5505",
+    "source_hours_text": "08:30 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 34.9338150572517,
+    "lng": 127.549231576113,
+    "geocodeStatus": "ok",
+    "id": "228",
+    "nightEligible": "full"
+  },
+  {
+    "name": "목사골한국약국",
+    "address": "전라남도 나주시 나주로 204 목사골한국약국",
+    "phone": "061-337-9449",
+    "source_hours_text": "08:30 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 35.0346495909654,
+    "lng": 126.721915537107,
+    "geocodeStatus": "ok",
+    "id": "229",
+    "nightEligible": "full"
+  },
+  {
+    "name": "중마대형약국",
+    "address": "전라남도 광양시 광장로 147 1층",
+    "phone": "061-793-6030",
+    "source_hours_text": "09:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 34.9371252407578,
+    "lng": 127.694830000529,
+    "geocodeStatus": "ok",
+    "id": "230",
+    "nightEligible": "full"
+  },
+  {
+    "name": "아침약국",
+    "address": "강원특별자치도 원주시 단구로 394 101호 아침약국",
+    "phone": "033-761-2003",
+    "source_hours_text": "10:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "10:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 37.3218520188539,
+    "lng": 127.955730035029,
+    "geocodeStatus": "ok",
+    "id": "231",
+    "nightEligible": "full"
+  },
+  {
+    "name": "광주약국",
+    "address": "전라남도 구례군 구례읍 중앙로 36 광주약국",
+    "phone": "061-782-6965",
+    "source_hours_text": "07:30 ~ 23:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "07:30",
+      "daily_close": "23:00",
+      "overnight": false
+    },
+    "lat": 35.2088086546579,
+    "lng": 127.467814965229,
+    "geocodeStatus": "ok",
+    "id": "233",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "바른약국",
+    "address": "전라남도 무안군 삼향읍 남악3로82번길 42 가온빌딩 1층 바른약국",
+    "phone": "061-980-2511",
+    "source_hours_text": "09:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 34.8127007664939,
+    "lng": 126.464881712402,
+    "geocodeStatus": "ok",
+    "id": "235",
+    "nightEligible": "full"
+  },
+  {
+    "name": "벌교365약국",
+    "address": "전남 보성군 벌교읍 채동선로 222-1 벌교365약국",
+    "phone": "061-858-0566",
+    "source_hours_text": "08:00 ~ 23:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "23:00",
+      "overnight": false
+    },
+    "lat": 34.8422914565848,
+    "lng": 127.344171221681,
+    "geocodeStatus": "ok",
+    "id": "236",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "푸른약국",
+    "address": "전라남도 영암군 영암읍 동문로 8 푸른약국",
+    "phone": "061-471-7070",
+    "source_hours_text": "07:30 ~ 23:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "07:30",
+      "daily_close": "23:00",
+      "overnight": false
+    },
+    "lat": 34.7967620913413,
+    "lng": 126.702743164384,
+    "geocodeStatus": "ok",
+    "id": "237",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "천사약국",
+    "address": "전라남도 신안군 압해읍 압해로 872 1층 천사약국",
+    "phone": "061-271-9468",
+    "source_hours_text": "08:00 ~ 23:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "23:00",
+      "overnight": false
+    },
+    "lat": 34.8651700401895,
+    "lng": 126.313748225273,
+    "geocodeStatus": "ok",
+    "id": "238",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "두꺼비약국",
+    "address": "경상북도 포항시 북구 불종로 57 두꺼비약국",
+    "phone": "054-247-2454",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 36.0384044992526,
+    "lng": 129.366138009862,
+    "geocodeStatus": "ok",
+    "id": "239",
+    "nightEligible": "full"
+  },
+  {
+    "name": "오거리약국",
+    "address": "경상북도 포항시 북구 중흥로 343 경북 포항시 북구 죽도동 44-7",
+    "phone": "010-9801-0788",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 36.0324643935388,
+    "lng": 129.365556802954,
+    "geocodeStatus": "ok",
+    "id": "240",
+    "nightEligible": "full"
+  },
+  {
+    "name": "자모약국",
+    "address": "경상북도 포항시 남구 청림서길 11-1 11-1",
+    "phone": "054-292-4521",
+    "source_hours_text": "08:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": null,
+    "lng": null,
+    "geocodeStatus": "not_found",
+    "geocodeRaw": {
+      "documents": [],
+      "meta": {
+        "is_end": true,
+        "pageable_count": 0,
+        "total_count": 0
+      }
+    },
+    "id": "241",
+    "nightEligible": "full"
+  },
+  {
+    "name": "늘봄약국(구 성동약국)",
+    "address": "경상북도 경주시 화랑로 139 늘봄약국(구 성동약국)",
+    "phone": "054-748-8575",
+    "source_hours_text": "09:00 ~ 23:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "23:00",
+      "overnight": false
+    },
+    "lat": 35.8446238343379,
+    "lng": 129.216058675442,
+    "geocodeStatus": "ok",
+    "id": "242",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "한솔약국",
+    "address": "경상북도 경주시 용담로 32 한솔약국",
+    "phone": "054-746-4000",
+    "source_hours_text": "09:00 ~ 23:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "23:00",
+      "overnight": false
+    },
+    "lat": 35.8618954699459,
+    "lng": 129.217752194465,
+    "geocodeStatus": "ok",
+    "id": "243",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "구미대형약국",
+    "address": "경북 구미시 1공단로 169 1층 구미대형약국",
+    "phone": "054-463-8275",
+    "source_hours_text": "08:30 ~ 23:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "23:00",
+      "overnight": false
+    },
+    "lat": 36.1023299473157,
+    "lng": 128.381867856125,
+    "geocodeStatus": "ok",
+    "id": "247",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "현대약국",
+    "address": "경상북도 구미시 야은로 419 현대약국",
+    "phone": "054-451-0068",
+    "source_hours_text": "09:00 ~ 23:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "23:00",
+      "overnight": false
+    },
+    "lat": 36.1368930910242,
+    "lng": 128.3288792238,
+    "geocodeStatus": "ok",
+    "id": "248",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "영주백세약국",
+    "address": "경북 영주시 지천로 166 1층",
+    "phone": "054-633-8313",
+    "source_hours_text": "07:30 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "07:30",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 36.8149547010858,
+    "lng": 128.619439579536,
+    "geocodeStatus": "ok",
+    "id": "249",
+    "nightEligible": "full"
+  },
+  {
+    "name": "예약국",
+    "address": "경상북도 영천시 청솔길 23-6 청솔아파트 상가 105호 예약국",
+    "phone": "054-334-2111",
+    "source_hours_text": "09:00 ~ 23:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "23:00",
+      "overnight": false
+    },
+    "lat": 35.9889007474316,
+    "lng": 128.955120017251,
+    "geocodeStatus": "ok",
+    "id": "250",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "경동메디컬약국",
+    "address": "경상북도 상주시 상산로 251 경동메디컬약국",
+    "phone": "054-535-6055",
+    "source_hours_text": "08:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 36.4133063836919,
+    "lng": 128.159249142449,
+    "geocodeStatus": "ok",
+    "id": "251",
+    "nightEligible": "full"
+  },
+  {
+    "name": "함창약국",
+    "address": "경북 상주시 함창읍 함창중앙로 99 1층 터미널내",
+    "phone": "054-541-8922",
+    "source_hours_text": "08:00 ~ 23:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "23:00",
+      "overnight": false
+    },
+    "lat": 36.5683472818944,
+    "lng": 128.175646801876,
+    "geocodeStatus": "ok",
+    "id": "252",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "메디팜보명당약국",
+    "address": "경북 문경시 중앙로 128 1층 메디팜보명당약국",
+    "phone": "054-555-2555",
+    "source_hours_text": "09:00 ~ 23:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "23:00",
+      "overnight": false
+    },
+    "lat": 36.5962231034027,
+    "lng": 128.200228998056,
+    "geocodeStatus": "ok",
+    "id": "253",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "건강약국",
+    "address": "경북 경산시 경안로38길 23 건강약국",
+    "phone": "053-811-6267",
+    "source_hours_text": "09:00 ~ 23:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "23:00",
+      "overnight": false
+    },
+    "lat": 35.8262962081187,
+    "lng": 128.737725504252,
+    "geocodeStatus": "ok",
+    "id": "254",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "복광당약국",
+    "address": "경북 경산시 자인면 일연로 80 복광당약국",
+    "phone": "053-857-1150",
+    "source_hours_text": "19:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "19:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.8202654090692,
+    "lng": 128.82296097045,
+    "geocodeStatus": "ok",
+    "id": "255",
+    "nightEligible": "full"
+  },
+  {
+    "name": "으뜸약국",
+    "address": "경북 경산시 대학로 23 월드스퀘어 101,102호 으뜸약국",
+    "phone": "053-811-0414",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.8349899307502,
+    "lng": 128.725539422094,
+    "geocodeStatus": "ok",
+    "id": "257",
+    "nightEligible": "full"
+  },
+  {
+    "name": "조아약국",
+    "address": "경상북도 경산시 성암로 35 상가A동 조아약국",
+    "phone": "053-213-5193",
+    "source_hours_text": "08:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.822933219156,
+    "lng": 128.721527992478,
+    "geocodeStatus": "ok",
+    "id": "258",
+    "nightEligible": "full"
+  },
+  {
+    "name": "하나로약국",
+    "address": "경상북도 의성군 의성읍 문소3길 104-1 1층 하나로약국",
+    "phone": "054-832-9909",
+    "source_hours_text": "08:00 ~ 23:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "23:00",
+      "overnight": false
+    },
+    "lat": 36.355130990627,
+    "lng": 128.694553643028,
+    "geocodeStatus": "ok",
+    "id": "259",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "도청호랑이약국",
+    "address": "경북 예천군 호명읍 새움1로 25 1층 101호 도청호랑이약국",
+    "phone": "054-805-7117",
+    "source_hours_text": "09:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 36.5756238732646,
+    "lng": 128.49168600599,
+    "geocodeStatus": "ok",
+    "id": "261",
+    "nightEligible": "full"
+  },
+  {
+    "name": "메디팜엄마손약국",
+    "address": "경상남도 창원시 성산구 원이대로580번길 16 (중앙동 성한빌딩) 메디팜엄마손약국",
+    "phone": "055-263-7743",
+    "source_hours_text": "08:30 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.2271067227352,
+    "lng": 128.677158809152,
+    "geocodeStatus": "ok",
+    "id": "262",
+    "nightEligible": "full"
+  },
+  {
+    "name": "샘터약국",
+    "address": "경상남도 진주시 진주대로 883",
+    "phone": "055-762-7228",
+    "source_hours_text": "08:30 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 35.1792024876045,
+    "lng": 128.090663560006,
+    "geocodeStatus": "ok",
+    "id": "265",
+    "nightEligible": "full"
+  },
+  {
+    "name": "명인약국",
+    "address": "경상남도 김해시 번화1로79번길 2 2층 207-1호 명인약국",
+    "phone": "055-327-1150",
+    "source_hours_text": "09:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 35.1944371557943,
+    "lng": 128.799203831564,
+    "geocodeStatus": "ok",
+    "id": "266",
+    "nightEligible": "full"
+  },
+  {
+    "name": "희망온누리약국",
+    "address": "경남 김해시 분성로 100 1층",
+    "phone": "055-333-3733",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.2308351120768,
+    "lng": 128.857996456249,
+    "geocodeStatus": "ok",
+    "id": "268",
+    "nightEligible": "full"
+  },
+  {
+    "name": "평화약국",
+    "address": "경남 통영시 중앙로 293 평화약국",
+    "phone": "055-648-0619",
+    "source_hours_text": "약국 확인 필요",
+    "review_status": "reviewed",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "09:00",
+          "close": "20:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "09:00",
+          "close": "20:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "09:00",
+          "close": "20:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "09:00",
+          "close": "20:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "09:00",
+          "close": "20:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "09:00",
+          "close": "18:00"
+        },
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "22:00",
+          "close": "01:00"
+        }
+      ]
+    },
+    "lat": 34.8564413331676,
+    "lng": 128.428359732488,
+    "geocodeStatus": "ok",
+    "id": "269",
+    "nightEligible": "full"
+  },
+  {
+    "name": "따뜻한약국",
+    "address": "경남 거제시 옥포대첩로 38 따뜻한약국",
+    "phone": "055-687-7707",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 34.893533512732,
+    "lng": 128.691807864633,
+    "geocodeStatus": "ok",
+    "id": "270",
+    "nightEligible": "full"
+  },
+  {
+    "name": "내송드림약국",
+    "address": "경남 양산시 동면 내송내안2길 29",
+    "phone": "055-365-4100",
+    "source_hours_text": "09:00 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.3191017446161,
+    "lng": 129.066656675627,
+    "geocodeStatus": "ok",
+    "id": "271",
+    "nightEligible": "full"
+  },
+  {
+    "name": "신일약국",
+    "address": "경남 양산시 신기로 24 신일약국",
+    "phone": "055-384-6878",
+    "source_hours_text": "08:40 ~ 25:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:40",
+      "daily_close": "01:00",
+      "overnight": true
+    },
+    "lat": 35.3527861152119,
+    "lng": 129.043157959226,
+    "geocodeStatus": "ok",
+    "id": "272",
+    "nightEligible": "full"
+  },
+  {
+    "name": "가람약국",
+    "address": "경상남도 거창군 거창읍 거창대로1길 7-2 가람약국",
+    "phone": "055-945-3651",
+    "source_hours_text": "08:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 35.6873284300761,
+    "lng": 127.916803997127,
+    "geocodeStatus": "ok",
+    "id": "273",
+    "nightEligible": "full"
+  },
+  {
+    "name": "건강약국",
+    "address": "경남 남해군 남해읍 북변리 282-6",
+    "phone": "055-864-7842",
+    "source_hours_text": "09:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "09:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 34.8410701749632,
+    "lng": 127.894684180858,
+    "geocodeStatus": "ok",
+    "id": "274",
+    "nightEligible": "full"
+  },
+  {
+    "name": "자이약국",
+    "address": "경남 함안군 칠원읍 호암길 14 104호 자이약국",
+    "phone": "055-586-0816",
+    "source_hours_text": "08:00 ~ 24:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:00",
+      "daily_close": "00:00",
+      "overnight": true
+    },
+    "lat": 35.2752558788993,
+    "lng": 128.521842579713,
+    "geocodeStatus": "ok",
+    "id": "275",
+    "nightEligible": "full"
+  },
+  {
+    "name": "현재약국",
+    "address": "제주특별자치도 제주시 한림읍 한림로 650 현재약국",
+    "phone": "064-796-9333",
+    "source_hours_text": "08:30 ~ 23:00",
+    "review_status": "source_imported",
+    "inferred_uniform_hours": {
+      "daily_open": "08:30",
+      "daily_close": "23:00",
+      "overnight": false
+    },
+    "lat": 33.4136857622942,
+    "lng": 126.262828036388,
+    "geocodeStatus": "ok",
+    "id": "278",
+    "nightEligible": "partial"
+  },
+  {
+    "name": "프라임약국",
+    "address": "제주특별자치도 서귀포시 대정읍 에듀시티로 102 상가104호 105호",
+    "phone": "064-794-9997",
+    "source_hours_text": "목~금·월~화·수 08:30~23:00(휴게), 토 08:30~14:00, 일 20:00~23:00",
+    "review_status": "needs_manual_review",
+    "lat": 33.2869426700437,
+    "lng": 126.280320074803,
+    "geocodeStatus": "ok",
+    "id": "281",
+    "nightEligible": "partial",
+    "weekly_hours": {
+      "mon": [
+        {
+          "open": "08:30",
+          "close": "18:30"
+        },
+        {
+          "open": "20:00",
+          "close": "23:00"
+        }
+      ],
+      "tue": [
+        {
+          "open": "08:30",
+          "close": "18:30"
+        },
+        {
+          "open": "20:00",
+          "close": "23:00"
+        }
+      ],
+      "wed": [
+        {
+          "open": "08:30",
+          "close": "18:00"
+        },
+        {
+          "open": "20:00",
+          "close": "23:00"
+        }
+      ],
+      "thu": [
+        {
+          "open": "08:30",
+          "close": "18:30"
+        },
+        {
+          "open": "20:00",
+          "close": "23:00"
+        }
+      ],
+      "fri": [
+        {
+          "open": "08:30",
+          "close": "18:30"
+        },
+        {
+          "open": "20:00",
+          "close": "23:00"
+        }
+      ],
+      "sat": [
+        {
+          "open": "08:30",
+          "close": "14:00"
+        }
+      ],
+      "sun": [
+        {
+          "open": "20:00",
+          "close": "23:00"
+        }
+      ]
+    },
+    "inferred_uniform_hours": null,
+    "notes": "18:30~20:00 휴게시간 (수요일은 18:00~20:00)"
+  }
+]

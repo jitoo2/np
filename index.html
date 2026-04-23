@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>공공심야약국 지도</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="config.js"></script>
+  <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=11535e634cab771a3ba7966316c1f063"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <h1>공공심야약국</h1>
+        <p>지도에서 심야 운영 약국을 확인하세요</p>
+      </div>
+      <button id="locateBtn" type="button">내 위치</button>
+    </header>
+
+    <section class="filters">
+      <input id="searchInput" type="search" placeholder="약국명 또는 주소 검색" />
+      <select id="regionSelect">
+        <option value="">전체 지역</option>
+      </select>
+      <select id="nightFilter">
+        <option value="">전체 운영 유형</option>
+        <option value="full">완전 심야</option>
+        <option value="partial">부분 심야</option>
+        <option value="none">일반</option>
+      </select>
+    </section>
+
+    <main class="layout">
+      <div id="map"></div>
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <strong id="resultCount">0곳</strong>
+        </div>
+        <div id="list"></div>
+      </aside>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
