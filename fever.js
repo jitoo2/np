@@ -183,7 +183,7 @@ analyzeBtn.addEventListener('click', async () => {
   analyzeBtn.textContent = '분석 중...';
 
   const GEMINI_KEY = 'AIzaSyDK5FOd24shWcFiViHxplgkaqg3I9zfHqY';
-  const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_KEY}`;
+  const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_KEY}`;
 
   const prompt = `이 이미지는 어린이 해열제 제품 사진입니다.
 다음 정보를 JSON으로만 답해주세요. 마크다운 없이 JSON만 출력하세요.
