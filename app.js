@@ -187,13 +187,102 @@ searchInput.addEventListener('input', applyFilters);
 regionSelect.addEventListener('change', applyFilters);
 nightFilter.addEventListener('change', applyFilters);
 
-locateBtn.addEventListener('click', () => {
-  if (!navigator.geolocation) return;
-  navigator.geolocation.getCurrentPosition((pos) => {
-    const loc = new kakao.maps.LatLng(pos.coords.latitude, pos.coords.longitude);
-    map.setLevel(4);
-    map.panTo(loc);
+// 두 좌표 간 직선거리 계산 (Haversine 공식, 단위: km)
+function calcDistance(lat1, lng1, lat2, lng2) {
+  const R = 6371;
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLng = (lng2 - lng1) * Math.PI / 180;
+  const a = Math.sin(dLat/2) ** 2 +
+            Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+            Math.sin(dLng/2) ** 2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+function formatDistance(km) {
+  return km < 1 ? `${Math.round(km * 1000)}m` : `${km.toFixed(1)}km`;
+}
+
+function showNearby(userLat, userLng) {
+  // 현재 필터된 목록 기준으로 거리 계산 후 정렬
+  const withDist = allRows
+    .filter(r => typeof r.lat === 'number' && typeof r.lng === 'number')
+    .map(r => ({ ...r, _dist: calcDistance(userLat, userLng, r.lat, r.lng) }))
+    .sort((a, b) => a._dist - b._dist)
+    .slice(0, 5);
+
+  // 내 위치 마커
+  const myPos = new kakao.maps.LatLng(userLat, userLng);
+  const myMarker = new kakao.maps.Marker({
+    position: myPos,
+    map,
+    image: new kakao.maps.MarkerImage(
+      'https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png',
+      new kakao.maps.Size(24, 35)
+    )
   });
+  markers.push(myMarker);
+  map.setLevel(5);
+  map.panTo(myPos);
+
+  // 사이드바 상단에 nearby 섹션 삽입
+  const nearbyEl = document.createElement('div');
+  nearbyEl.id = 'nearbySection';
+  nearbyEl.innerHTML = `
+    <div class="nearby-header">📍 내 위치 기준 가까운 약국</div>
+    ${withDist.map((row, i) => `
+      <button type="button" class="pharmacy-card nearby-card" data-id="${row.id}">
+        <div class="nearby-rank">${i + 1}</div>
+        <div class="nearby-info">
+          <strong>${row.display_name || row.name}</strong>
+          <div class="meta">${extractRegion(row.address)} ${badgeNight(row.nightEligible)}</div>
+          <div class="hours">오늘 ${getTodayHours(row)}</div>
+          <div class="nearby-bottom">
+            <span class="dist">📏 ${formatDistance(row._dist)}</span>
+            <a class="kakao-nav"
+               href="https://map.kakao.com/link/to/${encodeURIComponent(row.display_name || row.name)},${row.lat},${row.lng}"
+               target="_blank"
+               onclick="event.stopPropagation()">🚗 길찾기</a>
+          </div>
+        </div>
+      </button>
+    `).join('')}
+    <button type="button" class="nearby-close" id="nearbyClose">닫기 ✕</button>
+  `;
+
+  // 기존 nearby 섹션 제거 후 삽입
+  document.getElementById('nearbySection')?.remove();
+  listEl.prepend(nearbyEl);
+
+  // 카드 클릭 이벤트
+  withDist.forEach(row => {
+    nearbyEl.querySelector(`[data-id="${row.id}"]`)
+      ?.addEventListener('click', () => focusRow(row));
+  });
+
+  document.getElementById('nearbyClose').addEventListener('click', () => {
+    nearbyEl.remove();
+  });
+}
+
+locateBtn.addEventListener('click', () => {
+  if (!navigator.geolocation) {
+    alert('위치 정보를 사용할 수 없습니다.');
+    return;
+  }
+  locateBtn.textContent = '위치 확인 중...';
+  locateBtn.disabled = true;
+  navigator.geolocation.getCurrentPosition(
+    (pos) => {
+      locateBtn.textContent = '내 위치';
+      locateBtn.disabled = false;
+      showNearby(pos.coords.latitude, pos.coords.longitude);
+    },
+    () => {
+      locateBtn.textContent = '내 위치';
+      locateBtn.disabled = false;
+      alert('위치 정보를 가져올 수 없습니다.\n브라우저 위치 권한을 확인해주세요.');
+    }
+  );
 });
 
 initMap();
