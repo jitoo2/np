@@ -9,95 +9,96 @@
   <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=11535e634cab771a3ba7966316c1f063"></script>
 </head>
 <body>
-  <div class="app-shell">
-
+  <!-- ══ 메인: 약국 지도 ══ -->
+  <div id="screen-map" class="app-shell">
     <header class="topbar">
       <div>
         <h1>공공심야약국</h1>
-        <p>심야 운영 약국 · 해열제 가이드</p>
+        <p>지도에서 심야 운영 약국을 확인하세요</p>
       </div>
-      <button id="locateBtn" type="button">내 위치</button>
+      <div class="topbar-btns">
+        <button id="locateBtn" type="button">내 위치</button>
+        <button id="feverBtn" type="button" class="btn-fever">🌡️ 해열제</button>
+      </div>
     </header>
 
-    <nav class="tab-bar">
-      <button class="tab-btn active" data-tab="map">🗺️ 약국 지도</button>
-      <button class="tab-btn" data-tab="fever">🌡️ 해열제 가이드</button>
-    </nav>
+    <section class="filters">
+      <input id="searchInput" type="search" placeholder="약국명 또는 주소 검색" />
+      <select id="regionSelect"><option value="">전체 지역</option></select>
+      <select id="nightFilter">
+        <option value="">전체 운영 유형</option>
+        <option value="full">완전 심야</option>
+        <option value="partial">부분 심야</option>
+        <option value="none">일반</option>
+      </select>
+    </section>
 
-    <!-- 탭1: 약국 지도 -->
-    <div id="tab-map" class="tab-panel active">
-      <section class="filters">
-        <input id="searchInput" type="search" placeholder="약국명 또는 주소 검색" />
-        <select id="regionSelect"><option value="">전체 지역</option></select>
-        <select id="nightFilter">
-          <option value="">전체 운영 유형</option>
-          <option value="full">완전 심야</option>
-          <option value="partial">부분 심야</option>
-          <option value="none">일반</option>
-        </select>
-      </section>
-      <main class="layout">
-        <div id="map"></div>
-        <aside class="sidebar">
-          <div class="sidebar-header"><strong id="resultCount">0곳</strong></div>
-          <div id="list"></div>
-        </aside>
-      </main>
-    </div>
+    <main class="layout">
+      <div id="map"></div>
+      <aside class="sidebar">
+        <div class="sidebar-header"><strong id="resultCount">0곳</strong></div>
+        <div id="list"></div>
+      </aside>
+    </main>
+  </div>
 
-    <!-- 탭2: 해열제 가이드 -->
-    <div id="tab-fever" class="tab-panel">
-      <div class="fever-wrap">
-        <div class="fever-hero">
-          <div class="fever-hero-title">🌡️ 아이 해열제 가이드</div>
-          <div class="fever-hero-sub">사진으로 찍으면 AI가 성분을 확인하고<br/>복용법을 알려드려요</div>
-        </div>
+  <!-- ══ 해열제 가이드 (별도 화면) ══ -->
+  <div id="screen-fever" class="fever-screen" style="display:none;">
+    <header class="fever-topbar">
+      <button id="feverBackBtn" class="btn-back">← 돌아가기</button>
+      <span class="fever-topbar-title">🌡️ 해열제 가이드</span>
+      <span style="width:80px;"></span>
+    </header>
 
-        <div class="fcard">
-          <div class="fcard-title">👶 Step 1 · 아이 정보 입력</div>
-          <div class="pickers">
-            <div class="picker-wrap">
-              <div class="picker-label">나이</div>
-              <div class="drum" id="ageDrum">
-                <div class="drum-highlight"></div>
-                <div class="drum-inner" id="ageInner"></div>
-              </div>
-            </div>
-            <div class="picker-wrap">
-              <div class="picker-label">몸무게</div>
-              <div class="drum" id="weightDrum">
-                <div class="drum-highlight"></div>
-                <div class="drum-inner" id="weightInner"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="fcard">
-          <div class="fcard-title">📷 Step 2 · 해열제 사진 업로드</div>
-          <div class="upload-area" id="uploadArea">
-            <input type="file" id="fileInput" accept="image/*" capture="environment"/>
-            <div class="upload-icon">💊</div>
-            <div class="upload-text"><strong>사진을 선택</strong>하거나 여기에 드래그하세요<br/>약 포장지나 라벨이 잘 보이게 찍어주세요</div>
-          </div>
-          <img id="previewImg" class="preview-img" style="display:none;"/>
-          <button class="btn-analyze" id="analyzeBtn" disabled>AI로 성분 분석하기</button>
-        </div>
-
-        <div class="fever-loading" id="feverLoading">
-          <div class="spinner"></div>
-          AI가 해열제 성분을 확인하고 있어요...
-        </div>
-
-        <div class="fcard fever-result" id="feverResult" style="display:none;"></div>
-
-        <p class="fever-disclaimer">
-          이 정보는 일반적인 복용 가이드이며 의학적 조언을 대체하지 않습니다.<br/>
-          정확한 용량은 제품 설명서 또는 약사·의사와 상담하세요.
-        </p>
+    <div class="fever-wrap">
+      <div class="fever-hero">
+        <div class="fever-hero-title">아이 해열제 복용 가이드</div>
+        <div class="fever-hero-sub">사진으로 찍으면 AI가 성분을 확인하고<br/>복용법을 알려드려요</div>
       </div>
-    </div>
 
+      <div class="fcard">
+        <div class="fcard-title">👶 Step 1 · 아이 정보 입력</div>
+        <div class="pickers">
+          <div class="picker-wrap">
+            <div class="picker-label">나이</div>
+            <div class="drum" id="ageDrum">
+              <div class="drum-highlight"></div>
+              <div class="drum-inner" id="ageInner"></div>
+            </div>
+          </div>
+          <div class="picker-wrap">
+            <div class="picker-label">몸무게</div>
+            <div class="drum" id="weightDrum">
+              <div class="drum-highlight"></div>
+              <div class="drum-inner" id="weightInner"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fcard">
+        <div class="fcard-title">📷 Step 2 · 해열제 사진 업로드</div>
+        <div class="upload-area" id="uploadArea">
+          <input type="file" id="fileInput" accept="image/*" capture="environment"/>
+          <div class="upload-icon">💊</div>
+          <div class="upload-text"><strong>사진을 선택</strong>하거나 여기에 드래그하세요<br/>약 포장지나 라벨이 잘 보이게 찍어주세요</div>
+        </div>
+        <img id="previewImg" class="preview-img" style="display:none;"/>
+        <button class="btn-analyze" id="analyzeBtn" disabled>AI로 성분 분석하기</button>
+      </div>
+
+      <div class="fever-loading" id="feverLoading">
+        <div class="spinner"></div>
+        AI가 해열제 성분을 확인하고 있어요...
+      </div>
+
+      <div class="fcard" id="feverResult" style="display:none;"></div>
+
+      <p class="fever-disclaimer">
+        이 정보는 일반적인 복용 가이드이며 의학적 조언을 대체하지 않습니다.<br/>
+        정확한 용량은 제품 설명서 또는 약사·의사와 상담하세요.
+      </p>
+    </div>
   </div>
 
   <script src="app.js"></script>

@@ -339,64 +339,68 @@ html, body {
   font-family: inherit;
 }
 .nearby-close:hover { background: var(--surface); }
+/* ════════════════════════════════
+   헤더 버튼 그룹
+   ════════════════════════════════ */
+.topbar-btns {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-shrink: 0;
+}
+.btn-fever {
+  padding: 8px 14px;
+  background: rgba(188,140,255,0.15);
+  color: #bc8cff;
+  border: 1px solid rgba(188,140,255,0.35);
+  border-radius: var(--radius);
+  font-size: 13px;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+  white-space: nowrap;
+}
+.btn-fever:hover { background: rgba(188,140,255,0.25); }
 
 /* ════════════════════════════════
-   탭 네비게이션
+   해열제 전용 화면
    ════════════════════════════════ */
-.tab-bar {
+.fever-screen {
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+.fever-topbar {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
   background: var(--surface);
   border-bottom: 1px solid var(--border);
   flex-shrink: 0;
 }
-.tab-btn {
-  flex: 1;
-  padding: 12px 8px;
+.fever-topbar-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+}
+.btn-back {
   background: none;
   border: none;
-  border-bottom: 3px solid transparent;
-  color: var(--text-muted);
-  font-size: 13px;
+  color: var(--accent);
+  font-size: 14px;
   font-weight: 600;
   font-family: inherit;
   cursor: pointer;
-  transition: color 0.15s, border-color 0.15s;
+  padding: 4px 0;
+  width: 80px;
+  text-align: left;
 }
-.tab-btn.active {
-  color: var(--accent);
-  border-bottom-color: var(--accent);
-}
-.tab-btn:hover:not(.active) {
-  color: var(--text);
-}
+.btn-back:hover { opacity: 0.8; }
 
-/* ── 탭 패널 ── */
-.tab-panel {
-  display: none;
-  flex: 1;
-  flex-direction: column;
-  min-height: 0;
-  overflow: hidden;
-}
-.tab-panel.active {
-  display: flex;
-}
-
-/* 지도 탭은 기존 layout 유지 */
-#tab-map {
-  flex-direction: column;
-}
-#tab-map .filters {
-  flex-shrink: 0;
-}
-#tab-map .layout {
-  flex: 1;
-  min-height: 0;
-}
-
-/* ════════════════════════════════
-   해열제 가이드 탭
-   ════════════════════════════════ */
 .fever-wrap {
   flex: 1;
   overflow-y: auto;
@@ -409,17 +413,15 @@ html, body {
   text-align: center;
   margin-bottom: 20px;
   padding: 20px;
-  background: linear-gradient(135deg, rgba(79,124,255,0.12), rgba(188,140,255,0.12));
+  background: linear-gradient(135deg, rgba(79,124,255,0.1), rgba(188,140,255,0.1));
   border-radius: var(--radius);
   border: 1px solid rgba(79,124,255,0.2);
 }
 .fever-hero-title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   margin-bottom: 6px;
-  background: linear-gradient(135deg, #58a6ff, #bc8cff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--text);
 }
 .fever-hero-sub {
   font-size: 13px;
@@ -427,7 +429,6 @@ html, body {
   line-height: 1.6;
 }
 
-/* 카드 */
 .fcard {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -462,13 +463,11 @@ html, body {
 .drum::before, .drum::after {
   content: '';
   position: absolute;
-  left: 0; right: 0;
-  height: 55px;
-  z-index: 2;
-  pointer-events: none;
+  left: 0; right: 0; height: 55px;
+  z-index: 2; pointer-events: none;
 }
-.drum::before { top: 0; background: linear-gradient(to bottom, var(--surface2), transparent); }
-.drum::after  { bottom: 0; background: linear-gradient(to top, var(--surface2), transparent); }
+.drum::before { top: 0;    background: linear-gradient(to bottom, var(--surface2), transparent); }
+.drum::after  { bottom: 0; background: linear-gradient(to top,   var(--surface2), transparent); }
 
 .drum-highlight {
   position: absolute;
@@ -477,18 +476,13 @@ html, body {
   background: rgba(79,124,255,0.08);
   border-top: 1px solid rgba(79,124,255,0.25);
   border-bottom: 1px solid rgba(79,124,255,0.25);
-  z-index: 1;
-  pointer-events: none;
+  z-index: 1; pointer-events: none;
 }
 .drum-inner { position: absolute; width: 100%; }
 .drum-item {
   height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--text-muted);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px; font-weight: 500; color: var(--text-muted);
   transition: color 0.15s, font-size 0.15s;
 }
 .drum-item.active { color: var(--accent); font-size: 16px; font-weight: 700; }
@@ -496,10 +490,8 @@ html, body {
 /* 업로드 */
 .upload-area {
   border: 2px dashed var(--border);
-  border-radius: 12px;
-  padding: 24px 16px;
-  text-align: center;
-  cursor: pointer;
+  border-radius: 12px; padding: 24px 16px;
+  text-align: center; cursor: pointer;
   transition: border-color 0.2s, background 0.2s;
   position: relative;
 }
@@ -507,10 +499,7 @@ html, body {
   border-color: var(--accent);
   background: rgba(79,124,255,0.04);
 }
-.upload-area input {
-  position: absolute; inset: 0;
-  opacity: 0; cursor: pointer;
-}
+.upload-area input { position: absolute; inset: 0; opacity: 0; cursor: pointer; }
 .upload-icon { font-size: 32px; margin-bottom: 8px; }
 .upload-text { font-size: 12px; color: var(--text-muted); line-height: 1.6; }
 .upload-text strong { color: var(--accent); }
@@ -521,7 +510,6 @@ html, body {
   border: 1px solid var(--border);
 }
 
-/* 분석 버튼 */
 .btn-analyze {
   width: 100%; padding: 14px;
   background: linear-gradient(135deg, #4f7cff, #bc8cff);
@@ -531,15 +519,14 @@ html, body {
   transition: opacity 0.2s, transform 0.1s;
   margin-top: 12px;
 }
-.btn-analyze:hover { opacity: 0.9; }
+.btn-analyze:hover  { opacity: 0.9; }
 .btn-analyze:active { transform: scale(0.98); }
 .btn-analyze:disabled { opacity: 0.45; cursor: not-allowed; }
 
 /* 로딩 */
 .fever-loading {
-  display: none;
-  text-align: center; padding: 24px;
-  color: var(--text-muted); font-size: 13px;
+  display: none; text-align: center;
+  padding: 24px; color: var(--text-muted); font-size: 13px;
 }
 .spinner {
   width: 28px; height: 28px;
@@ -583,27 +570,19 @@ html, body {
   font-size: 12px; line-height: 1.8; margin-bottom: 10px;
 }
 .fever-warning-box strong { font-size: 13px; display: block; margin-bottom: 4px; }
-.fever-warn-yellow {
-  background: rgba(210,153,34,0.1);
-  border: 1px solid rgba(210,153,34,0.3);
-  color: #d29922;
-}
-.fever-warn-red {
-  background: rgba(248,81,73,0.1);
-  border: 1px solid rgba(248,81,73,0.3);
-  color: #f85149;
-}
+.fever-warn-yellow { background: rgba(210,153,34,0.1); border: 1px solid rgba(210,153,34,0.3); color: #d29922; }
+.fever-warn-red    { background: rgba(248,81,73,0.1);  border: 1px solid rgba(248,81,73,0.3);  color: #f85149; }
 
 .fever-disclaimer {
   text-align: center; font-size: 11px; color: var(--text-muted);
-  margin-top: 8px; line-height: 1.7;
-  padding: 12px; background: var(--surface);
-  border-radius: 10px; border: 1px solid var(--border);
+  margin-top: 8px; line-height: 1.7; padding: 12px;
+  background: var(--surface); border-radius: 10px;
+  border: 1px solid var(--border);
 }
 
-/* 모바일 대응 */
+/* 모바일 */
 @media (max-width: 700px) {
-  #tab-map .layout { flex-direction: column; }
-  #tab-map #map    { height: 45vh; width: 100%; }
-  #tab-map .sidebar { width: 100%; height: 45vh; border-left: none; border-top: 1px solid var(--border); }
+  .layout { flex-direction: column; }
+  #map { height: 45vh; width: 100%; }
+  .sidebar { width: 100%; height: 45vh; border-left: none; border-top: 1px solid var(--border); }
 }
