@@ -182,27 +182,32 @@ analyzeBtn.addEventListener('click', async () => {
   analyzeBtn.disabled = true;
   analyzeBtn.textContent = '분석 중...';
 
+  const GEMINI_KEY = 'AIzaSyDK5FOd24shWcFiViHxplgkaqg3I9zfHqY';
+  const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_KEY}`;
+
   const prompt = `이 이미지는 어린이 해열제 제품 사진입니다.
-다음 정보를 JSON으로만 답해주세요. 다른 텍스트는 절대 출력하지 마세요.
-{"product_name":"제품명","ingredient_type":"acetaminophen 또는 ibuprofen 또는 dexibuprofen 또는 unknown","ingredient_korean":"성분명 한국어","concentration":"농도(없으면 null)","is_liquid":true또는false,"note":"주의사항(없으면 null)"}
-판단기준: 타이레놀/세토펜/챔프→acetaminophen, 부루펜/애드빌→ibuprofen, 맥시부펜/덱시부프로펜→dexibuprofen`;
+다음 정보를 JSON으로만 답해주세요. 마크다운 없이 JSON만 출력하세요.
+{"product_name":"제품명","ingredient_type":"acetaminophen 또는 ibuprofen 또는 dexibuprofen 또는 unknown","ingredient_korean":"성분명 한국어","concentration":"농도(예:160mg/5mL, 없으면 null)","is_liquid":true또는false,"note":"주의사항(없으면 null)"}
+판단기준: 타이레놀/세토펜/챔프/어린이타이레놀→acetaminophen, 부루펜/이부프로펜/애드빌→ibuprofen, 맥시부펜/덱시부프로펜/아리부펜→dexibuprofen, 모르면→unknown`;
 
   try {
-    const resp = await fetch('https://api.anthropic.com/v1/messages', {
+    const resp = await fetch(GEMINI_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
-        max_tokens: 500,
-        messages: [{ role: 'user', content: [
-          { type: 'image', source: { type: 'base64', media_type: 'image/jpeg', data: imageBase64 } },
-          { type: 'text', text: prompt }
-        ]}]
+        contents: [{
+          parts: [
+            { inline_data: { mime_type: 'image/jpeg', data: imageBase64 } },
+            { text: prompt }
+          ]
+        }],
+        generationConfig: { temperature: 0.1, maxOutputTokens: 500 }
       })
     });
     const data = await resp.json();
-    const text = data.content.map(c => c.text || '').join('').replace(/```json|```/g, '').trim();
-    showResult(JSON.parse(text), ageVal, ageLabel, weightVal);
+    const text = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+    const clean = text.replace(/```json|```/g, '').trim();
+    showResult(JSON.parse(clean), ageVal, ageLabel, weightVal);
   } catch (e) {
     const el = document.getElementById('feverResult');
     el.innerHTML = `<div class="fever-warning-box fever-warn-red">❌ 분석 중 오류가 발생했어요. 다시 시도해주세요.</div>`;
