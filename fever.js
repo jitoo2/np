@@ -182,7 +182,7 @@ analyzeBtn.addEventListener('click', async () => {
   analyzeBtn.disabled = true;
   analyzeBtn.textContent = '분석 중...';
 
-  const GEMINI_KEY = 'AIzaSyDK5FOd24shWcFiViHxplgkaqg3I9zfHqY';
+  const GEMINI_KEY = 'AIzaSyBpgggV2gwGEE-_VbxVPe2GH7U1JqoA0Ss';
   const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_KEY}`;
 
   const prompt = `이 이미지는 어린이 해열제 제품 사진입니다.
