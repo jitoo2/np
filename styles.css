@@ -367,10 +367,17 @@ html, body {
    해열제 전용 화면
    ════════════════════════════════ */
 .fever-screen {
+  display: flex;
   flex-direction: column;
   height: 100vh;
   overflow: hidden;
   background: var(--bg);
+}
+.fever-screen[style*="display: none"] {
+  display: none !important;
+}
+.app-shell {
+  display: block;
 }
 
 .fever-topbar {

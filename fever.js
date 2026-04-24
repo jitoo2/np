@@ -1,13 +1,19 @@
 // ── 화면 전환 ──
-document.getElementById('feverBtn').addEventListener('click', () => {
-  document.getElementById('screen-map').style.display = 'none';
-  document.getElementById('screen-fever').style.display = 'flex';
+function showScreen(id) {
+  ['screen-map','screen-fever'].forEach(sid => {
+    document.getElementById(sid).style.display = 'none';
+  });
+  const el = document.getElementById(id);
+  el.style.display = id === 'screen-fever' ? 'flex' : 'block';
   window.scrollTo(0, 0);
+}
+
+document.getElementById('feverBtn').addEventListener('click', () => {
+  showScreen('screen-fever');
 });
 
 document.getElementById('feverBackBtn').addEventListener('click', () => {
-  document.getElementById('screen-fever').style.display = 'none';
-  document.getElementById('screen-map').style.display = 'flex';
+  showScreen('screen-map');
   if (typeof kakao !== 'undefined' && map) {
     setTimeout(() => kakao.maps.event.trigger(map, 'resize'), 100);
   }
