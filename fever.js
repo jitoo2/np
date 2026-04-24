@@ -183,7 +183,7 @@ analyzeBtn.addEventListener('click', async () => {
   analyzeBtn.textContent = '분석 중...';
 
   const GEMINI_KEY = 'AIzaSyDK5FOd24shWcFiViHxplgkaqg3I9zfHqY';
-  const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_KEY}`;
+  const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-04-17:generateContent?key=${GEMINI_KEY}`;
 
   const prompt = `이 이미지는 어린이 해열제 제품 사진입니다.
 다음 정보를 JSON으로만 답해주세요. 마크다운 없이 JSON만 출력하세요.
@@ -205,6 +205,18 @@ analyzeBtn.addEventListener('click', async () => {
       })
     });
     const data = await resp.json();
+
+    if (!resp.ok) {
+      const el = document.getElementById('feverResult');
+      if (resp.status === 429) {
+        el.innerHTML = `<div class="fever-warning-box fever-warn-yellow">⏱️ 요청이 너무 많아요. <strong>1분 후 다시 시도해주세요.</strong></div>`;
+      } else {
+        el.innerHTML = `<div class="fever-warning-box fever-warn-red">❌ 오류 (${resp.status}). 잠시 후 다시 시도해주세요.</div>`;
+      }
+      el.style.display = 'block';
+      return;
+    }
+
     const text = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
     const clean = text.replace(/```json|```/g, '').trim();
     showResult(JSON.parse(clean), ageVal, ageLabel, weightVal);
